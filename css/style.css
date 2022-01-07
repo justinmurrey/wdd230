@@ -1,0 +1,39 @@
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color:black;}
+
+  body {
+    background-color: white;
+    font-family: "Arial", serif, sans-serif;
+    font-size: 1.1em;
+  width: 800px;
+  }
+
+img{
+  width: 120px;
+  margin-top: 10px;
+  margin-left: 15px;
+  margin-right: 10px;
+  margin-bottom: 10px;
+  border-radius: 10px;
+}
+
+header{
+  display: flex;
+  color: white;}
+  
+ footer{
+   text-align:center;
+   color: white;
+ }
+
+header, footer{
+  max-width: 500px;
+  background-color:darkred;
+  padding: 5px;
+ border-radius: 5px;
+}
