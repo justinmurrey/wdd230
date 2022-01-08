@@ -40,7 +40,11 @@ footer {
   background-color: darkred;
   padding: 5px;
   border-radius: 5px;
+  margin: auto;
 }
 #date {
   color: yellow;
+}
+main {
+  margin: auto;
 }
