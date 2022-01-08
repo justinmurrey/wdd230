@@ -11,7 +11,8 @@ body {
   background-color: white;
   font-family: "Arial", serif, sans-serif;
   font-size: 1.1em;
-  width: 800px;
+  width: 80%;
+  margin: auto;
 }
 
 img {
@@ -35,7 +36,7 @@ footer {
 
 header,
 footer {
-  max-width: 500px;
+  width: 500px;
   background-color: darkred;
   padding: 5px;
   border-radius: 5px;
