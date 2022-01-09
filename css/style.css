@@ -1,10 +1,9 @@
-h1,
-h2,
-h3,
-h4,
-h5,
-h6 {
-  color: black;
+h1 {
+  color: white;
+}
+
+h2 {
+  border-bottom: solid black;
 }
 
 body {
@@ -26,6 +25,7 @@ img {
 
 header {
   display: flex;
+  align-items: center;
   color: white;
 }
 
@@ -36,7 +36,7 @@ footer {
 
 header,
 footer {
-  width: 500px;
+  width: 450px;
   background-color: darkred;
   padding: 5px;
   border-radius: 5px;
