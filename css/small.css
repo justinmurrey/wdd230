@@ -1,30 +1,32 @@
 h1 {
+  font-size: 1.5em;
+  margin: 0.15rem;
   color: white;
 }
 
 h2 {
-  border-bottom: solid black;
+  border-bottom: 1px solid black;
+  font: size 1.5rem;
+  margin-bottom: 0.5rem;
 }
 
 body {
-  background-color: white;
+  font-size: 16px;
+  line-height: 1.5;
   font-family: "Arial", serif, sans-serif;
-  font-size: 1.1em;
-  width: 80%;
+  height: 100%;
   margin: auto;
 }
 
-img {
-  width: 120px;
-  margin-top: 10px;
-  margin-left: 15px;
-  margin-right: 10px;
-  margin-bottom: 10px;
-  border-radius: 10px;
+#photo {
+  width: 200px;
+  height: auto;
+  padding-right: 10px;
 }
 
 header {
   display: flex;
+  flex-direction: column;
   align-items: center;
   color: white;
 }
@@ -36,7 +38,7 @@ footer {
 
 header,
 footer {
-  width: 500px;
+  width: 55%;
   background-color: darkred;
   padding: 5px;
   border-radius: 5px;
@@ -47,5 +49,5 @@ footer {
 }
 main {
   margin: auto;
-  width: 500px;
+  width: 55%;
 }
