@@ -1,3 +1,7 @@
+html {
+  background-color: darkgray;
+}
+
 body {
   font-size: 16px;
   font-family: "Sansita", Ubuntu, sans-serif;
@@ -12,7 +16,7 @@ main {
 }
 
 main section h2 {
-  color: #536878;
+  color: #222;
 }
 
 main section {
@@ -20,7 +24,8 @@ main section {
   border: 1px solid #bbb;
   padding: 0 1rem;
   background-color: #eee;
-}
+  border-radius: 5px;
+
 
 main section:nth-child(2) {
   display: none;
@@ -29,6 +34,9 @@ main section:nth-child(2) {
 
 .colimage {
   box-shadow: 0 0 30px #333;
+  border: 2px solid black;
+  border-radius: 5px;
+  margin-top: 15px;
 }
 
 /* Tablet Views ******************************/
