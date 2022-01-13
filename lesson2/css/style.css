@@ -4,6 +4,13 @@ html {
 #header {
   text-align: center;
 }
+
+#button {
+  background-color: black;
+  color: white;
+  border-radius: 5px;
+}
+
 body {
   font-size: 16px;
   font-family: "Sansita", Ubuntu, sans-serif;
@@ -30,7 +37,7 @@ main section {
 }
 
 main section:nth-child(2) {
-  display: none;
+  /*display: none;*/
   margin: 0.5rem;
 }
 
