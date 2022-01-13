@@ -1,7 +1,7 @@
 html {
   background-color: darkgray;
 }
-#header {
+header {
   text-align: center;
 }
 
@@ -9,6 +9,9 @@ html {
   background-color: black;
   color: white;
   border-radius: 5px;
+}
+.webaddress {
+  display: block;
 }
 
 body {
