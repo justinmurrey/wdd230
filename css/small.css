@@ -11,7 +11,6 @@ h2 {
 }
 
 body {
-  font-size: 16px;
   line-height: 1.5;
   font-family: "Arial", serif, sans-serif;
   height: 100%;
@@ -19,9 +18,8 @@ body {
 }
 
 #photo {
-  width: 120px;
+  width: 200px;
   height: auto;
-  padding-right: 10px;
 }
 
 header {
@@ -41,7 +39,7 @@ footer {
   width: 55%;
   background-color: darkred;
   padding: 5px;
-  border-radius: 5px;
+  /*border-radius: 5px;*/
   margin: auto;
 }
 #date {
