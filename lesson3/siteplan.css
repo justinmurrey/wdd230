@@ -1,4 +1,4 @@
-charset "UTF-8"; /* not necessary */
+@charset "UTF-8"; /* not necessary */
 * {
   margin: 0;
   padding: 0;
@@ -9,11 +9,29 @@ body {
   font-size: 16px;
   font-family: "Sansita", Ubuntu, sans-serif;
 }
+typography {
+  justify-content: center;
+}
+#primary {
+  width: 200px;
+  height: 250px;
+  background-color: lightgray;
+}
 
+#secondary {
+  width: 200px;
+  height: 250px;
+  background-color: #396e92;
+}
+#third {
+  width: 200px;
+  height: 250px;
+  background-color: rgb(164, 51, 18);
+}
 /* phone or baseline views **************************/
 header,
 footer {
-  background-color: #bed;
+  background-color: lightgray;
   display: flex;
   flex-flow: column;
   align-items: center;
@@ -28,15 +46,21 @@ footer {
   max-width: 767px;
   margin: 0 auto;
 }
-h1 {
+h1,
+h2,
+h3 {
   font-size: 1.1rem;
+  color: rgb(164, 51, 18);
+  font-family: "Montserrat", sans-serif;
 }
-h2 {
-  color: #536878;
+
+p {
+  color: rgb(164, 51, 18);
+  font-family: "Playfair Display", serif;
 }
 
 nav {
-  background-color: #36454f;
+  background-color: #396e92;
   text-align: center;
   box-shadow: 0 2px 15px gray;
 }
@@ -48,22 +72,24 @@ nav ul {
 }
 nav ul li a {
   display: block;
-  color: #fff;
+  color: white;
   text-align: center;
   padding: 0.75rem;
   text-decoration: none;
   font-size: 0.95rem;
-  background: linear-gradient(90deg, transparent, yellow, transparent) top /
+  background: linear-gradient(90deg, transparent, darkgray, transparent) top /
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
 }
 nav a:hover {
-  /* 	background-color: #bbb;
-	color: #36454f; */
+  color: black;
   --d: 75%;
 }
 .active {
   color: yellow;
+}
+.active:hover {
+  color: black;
 }
 main {
   display: grid;
@@ -80,8 +106,10 @@ main article {
 main article ul {
   margin: 1rem 0 0 1rem;
 }
-main picture {
-  display: none;
+img {
+  /*display: none;*/
+  max-width: 100%;
+
   margin: 0.5rem;
 }
 
@@ -94,20 +122,24 @@ footer {
   h1 {
     font-size: 1.5rem;
   }
-
   /* Horizontal Menu Examples */
   /* Flex *********************/
-  		nav ul { display: flex; }
-		nav ul li { flex: 1 1 auto; } 
+  nav ul {
+    display: flex;
+  }
+  nav ul li {
+    flex: 1 1 auto;
+  }
+  */
 
   /* Grid *********************/
-  /*nav ul {
-		display: grid;
-		/*grid-template-columns: repeat(5, 1fr);
-		grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-	}
-*/
-  nav a {
+  nav ul {
+    display: grid;
+    /*grid-template-columns: repeat(5, 1fr);
+    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));*/
+  }
+
+  * nav a {
     font-size: 1rem;
   }
   main {
