@@ -1,1 +1,26 @@
 /* Tablet Views */
+@media only screen and (min-width: 35.5em) {
+  h1 {
+    font-size: 1.5rem;
+  }
+
+  /* Horizontal Menu Examples */
+  /* Flex *********************/
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    justify-content: flex-end;
+  }
+  nav ul li {
+    border: none;
+    border-right: 1px solid 0, 0, 0, 0.3;
+  }
+
+  nav a {
+    font-size: 1rem;
+  }
+}

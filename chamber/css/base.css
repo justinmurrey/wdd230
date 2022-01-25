@@ -1,4 +1,7 @@
 /* phone or baseline views */
+.logo {
+  width: 100px;
+}
 
 * {
   margin: 0;
@@ -8,44 +11,59 @@
 
 body {
   font-size: 16px;
-  font-family: "Sansita", Ubuntu, sans-serif;
+  font-family: Arial, Helvetica, sans-serif;
 }
 
 header,
 footer {
-  background-color: #bed;
-  display: flex;
+  background-color: lightgray;
   flex-flow: column;
   align-items: center;
   justify-content: center;
-  padding: 10px;
 }
-
 header,
 nav,
 main,
 footer {
-  max-width: 767px;
   margin: 0 auto;
 }
 h1 {
-  font-size: 1.1rem;
+  font-size: 1.1rem 2vw;
 }
-h2 {
-  color: #536878;
+
+nav button {
+  margin: 0.2rem;
+  background: transparent;
+  border: none;
+  font-size: 2rem;
+  color: yellow;
+}
+nav ul {
+  display: none;
+}
+
+nav ul.open {
+  display: block;
+}
+
+nav a:hover {
+  color: yellow;
+  --d: 75%;
 }
 
 nav {
-  background-color: #36454f;
+  background-color: #396e92;
   text-align: center;
   box-shadow: 0 2px 15px gray;
 }
+
 nav ul {
   list-style-type: none;
   margin: 0;
   padding: 0;
   overflow: hidden;
 }
+
 nav ul li a {
   display: block;
   color: #fff;
@@ -57,87 +75,15 @@ nav ul li a {
     var(--d, 0) 10px no-repeat;
   transition: 0.5s;
 }
-nav a:hover {
-  /* 	background-color: #bbb;
-	color: #36454f; */
-  --d: 75%;
-}
+
 .active {
   color: yellow;
 }
-main {
-  display: grid;
-  grid-template-columns: 1fr;
-  font-size: 0.8rem;
-}
-main article {
-  margin: 0.5rem;
-  border: 1px solid #bbb;
-  padding: 1rem;
-  background-color: #eee;
-}
 
-main article ul {
-  margin: 1rem 0 0 1rem;
-}
-main picture {
-  display: none;
-  margin: 0.5rem;
+.active:hover {
+  color: white;
 }
 
 footer {
-  height: 2rem;
-}
-
-/* Tablet Views ******************************/
-@media only screen and (min-width: 37.5em) {
-  h1 {
-    font-size: 1.5rem;
-  }
-
-  /* Horizontal Menu Examples */
-  /* Flex *********************/
-  /* 		nav ul { display: flex; }
-		nav ul li { flex: 1 1 auto; } */
-
-  /* Grid *********************/
-  nav ul {
-    display: grid;
-    /*grid-template-columns: repeat(5, 1fr);*/
-    grid-template-columns: repeat(auto-fill, minmax(130px, 1fr));
-  }
-
-  nav a {
-    font-size: 1rem;
-  }
-  main {
-    grid-template-columns: 1fr 1fr;
-  }
-  article:nth-child(3) {
-    grid-column: span 2;
-  }
-  main picture {
-    display: block;
-  }
-  main picture img {
-    width: 100%;
-    height: auto;
-    border: 1px solid #bbb;
-  }
-}
-
-/* Desktop Views ****************************/
-@media only screen and (min-width: 60em) {
-  h1 {
-    font-size: 2rem;
-  }
-  nav a {
-    font-size: 1.1rem;
-  }
-  main {
-    grid-template-columns: 1fr 1fr 1fr;
-  }
-  article:nth-child(3) {
-    grid-column: span 1;
-  }
+  height: 3rem;
 }
