@@ -29,8 +29,12 @@ footer {
 }
 h1 {
   font-size: 1.1rem 2vw;
+  text-align: center;
 }
 
+.navb{
+  display: flex;
+}
 nav button {
   margin: 0.2rem;
   background: transparent;
@@ -55,6 +59,7 @@ nav {
   background-color: #396e92;
   text-align: center;
   box-shadow: 0 2px 15px gray;
+  border-bottom: 2px #333 solid;
 }
 
 nav ul {
@@ -85,5 +90,5 @@ nav ul li a {
 }
 
 footer {
-  height: 3rem;
-}
+  /*height: 3rem;
+}*/
