@@ -1,9 +1,10 @@
 /* Tablet Views */
 @media only screen and (min-width: 35.5em) {
-  h1 {
+  nav h1 {
+    display: block;
     font-size: 1.5rem;
+    text-align: center;
   }
-
   /* Horizontal Menu Examples */
   /* Flex *********************/
   nav button {
