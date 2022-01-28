@@ -11,4 +11,18 @@
   nav a {
     font-size: 1.1rem;
   }
+  /*main body*/
+  .spotlight3 {
+    display: block;
+  }
+
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr 1fr;
+    grid-template-areas:
+      "events hero hero spotlight1"
+      "weather hero hero spotlight2"
+      "join news news spotlight3";
+  }
 }

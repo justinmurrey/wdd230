@@ -1,5 +1,5 @@
 /* Tablet Views */
-@media only screen and (min-width: 35.5em) {
+@media only screen and (min-width: 37.5em) {
   nav h1 {
     display: block;
     font-size: 1.5rem;
@@ -23,5 +23,45 @@
 
   nav a {
     font-size: 1rem;
+  }
+  /*main body*/
+  .join {
+    display: block;
+  }
+  .grid {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    grid-template-areas:
+      "hero hero"
+      "news news"
+      "spotlight1 spotlight2"
+      "join join"
+      "events weather";
+  }
+
+  .hero {
+    grid-area: hero;
+  }
+
+  .news {
+    grid-area: news;
+  }
+
+  .events {
+    grid-area: events;
+  }
+
+  .weather {
+    grid-area: weather;
+  }
+  .join {
+    grid-area: join;
+  }
+  .spotlight1 {
+    grid-area: spotlight1;
+  }
+  .spotlight2 {
+    grid-area: spotlight2;
   }
 }

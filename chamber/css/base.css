@@ -38,7 +38,9 @@ h3 {
 p {
   color: #fff;
 }
-
+img {
+  padding-left: 5px;
+}
 nav h1 {
   display: none;
 }
@@ -123,9 +125,18 @@ footer {
   margin: 5px;
   justify-items: center;
 }
-.spotlight3 {
+.info1 {
+  border: 1px black solid;
+  text-align: center;
+  background-color: lightgray;
+  height: 200px;
+  justify-items: center;
+}
+
+.spotlight3,
+.join {
   display: none;
 }
-var today = new Date();
-document.getElementById('displayDateTime').innerHTML=today;
-<h2 id="displayDateTime"></h2>
+#displayDateTime {
+  width: 16px;
+}
