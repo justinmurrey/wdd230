@@ -76,11 +76,18 @@ h2,
 h3,
 h4,
 h5,
-h6,
+h6 {
+  color: #fff;
+  font-size: 16px;
+  font-family: "Montserrat", sans-serif;
+}
+
 p {
   color: #fff;
   font-size: 16px;
+  font-family: "Luxurious Roman", cursive;
 }
+
 /*navBar*/
 .container {
   display: grid;
@@ -163,6 +170,7 @@ aside {
   padding: 0.75rem;
   background-color: #396e92;
   text-align: center;
+  color: white;
 }
 
 nav footer {
