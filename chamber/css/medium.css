@@ -1,34 +1,92 @@
 /* Tablet Views */
-@media only screen and (min-width: 37.5em) {
-  nav h1 {
-    display: block;
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  /* Horizontal Menu Examples */
-  /* Flex *********************/
+@media only screen and (min-width: 35em) {
+  /* navbar*/
   nav button {
     display: none;
   }
-
   nav ul#primaryNav {
     display: flex;
     margin-left: 2vw;
-    justify-content: flex-end;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
   }
-  nav ul li {
+  nav ul li a {
     border: none;
-    border-right: 1px solid 0, 0, 0, 0.3;
-  }
-
-  nav a {
-    font-size: 1rem;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
   }
   /*main body*/
   .join {
     display: block;
   }
-  .grid {
+  main {
+    display: grid;
+    grid-template-rows: 1fr 1fr 1fr 1fr 1fr;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    gap: 0px;
+    height: calc(100vh - 80px);
+  }
+  .hero {
+    background-color: rgb(177, 170, 170);
+    grid-row-start: 1;
+    grid-column-start: 1;
+
+    grid-row-end: 2;
+    grid-column-end: 5;
+  }
+  .news {
+    background-color: rgb(177, 170, 170);
+    grid-row-start: 2;
+    grid-column-start: 1;
+
+    grid-row-end: 3;
+    grid-column-end: 5;
+  }
+  .spot1 {
+    background-color: rgb(177, 170, 170);
+    grid-row-start: 3;
+    grid-column-start: 1;
+
+    grid-row-end: 4;
+    grid-column-end: 3;
+  }
+  .spot2 {
+    background-color: rgb(177, 170, 170);
+    grid-row-start: 3;
+    grid-column-start: 3;
+
+    grid-row-end: 4;
+    grid-column-end: 5;
+  }
+  .spot3 {
+    display: none;
+  }
+
+  .join {
+    background-color: lightgray;
+    grid-row-start: 4;
+    grid-column-start: 1;
+
+    grid-row-end: 5;
+    grid-column-end: 5;
+  }
+  .event {
+    background-color: rgb(177, 170, 170);
+    grid-row-start: 5;
+    grid-column-start: 1;
+
+    grid-row-end: 6;
+    grid-column-end: 4;
+  }
+  .weather {
+    background-color: rgb(177, 170, 170);
+    grid-row-start: 5;
+    grid-column-start: 4;
+
+    grid-row-end: 6;
+    grid-column-end: 5;
+  }
+
+  /*.grid {
     display: grid;
     grid-template-columns: 1fr 1fr;
     grid-template-rows: 1fr 1fr;
@@ -63,5 +121,5 @@
   }
   .spotlight2 {
     grid-area: spotlight2;
-  }
+  }*/
 }

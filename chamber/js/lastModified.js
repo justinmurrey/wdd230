@@ -1,1 +1,3 @@
-document.getElementById("lastModified").innerHTML = new Date(document.lastModified);
+document.querySelector(
+	"#lastModified"
+).textContent = `Last Modification: ${document.lastModified}`;
