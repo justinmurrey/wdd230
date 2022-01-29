@@ -1,7 +1,41 @@
 /* phone or baseline views */
+header {
+  background-color: #fff;
+  padding: 5px 0;
+  /*display: flex;*/
+  align-items: center;
+  justify-content: space-between;
+  /*max-width: 900px;*/
+  margin: 0 auto;
+  /*border-bottom: 1px solid #bbb;*/
+}
+
 .logo {
-  width: 50px;
+  display: flex;
+  align-items: center;
+  margin-left: 1rem;
+}
+
+.logo img {
+  width: 80px;
   height: auto;
+}
+
+.headings {
+  display: flex;
+  flex-direction: column;
+  margin-left: 0.5rem;
+}
+
+.headings h1 {
+  font-size: 1.5rem;
+}
+
+.m {
+  letter-spacing: 1pt;
+  color: #fff;
+  font-weight: 700;
+  font-size: 0.8rem;
 }
 
 * {
@@ -14,14 +48,20 @@ body {
   font-size: 16px;
   font-family: Arial, Helvetica, sans-serif;
 }
-
+footer {
+  background-color: #333;
+  text-align: center;
+}
+#lastModified {
+  color: white;
+}
 header,
 footer {
-  background-color: lightgray;
   flex-flow: column;
   align-items: center;
   justify-content: center;
 }
+
 header,
 main,
 footer {
@@ -42,6 +82,16 @@ p {
   font-size: 16px;
 }
 /*navBar*/
+.container {
+  display: grid;
+  grid-template-columns: 1fr 1fr 80px;
+  background-color: #396e92;
+  align-items: center;
+}
+header {
+  background-color: #396e92;
+}
+
 img {
   padding-left: 5px;
 }
@@ -55,6 +105,9 @@ nav button {
 }
 
 nav {
+  position: absolute;
+  right: 0;
+  top: 10px;
   background-color: #396e92;
 }
 
@@ -103,6 +156,15 @@ nav ul.open {
 #hamburgerBtn.open span:nth-child(2) {
   display: block;
 }
+
+aside {
+  /* margin: 0.5rem;*/
+  border-top: 1px solid white;
+  padding: 0.75rem;
+  background-color: #396e92;
+  text-align: center;
+}
+
 nav footer {
   background-color: #333;
   border-top: 2px black solid;
@@ -114,10 +176,15 @@ nav footer {
 
 /*main body*/
 main {
-  grid-template-columns: repeat(4, 1fr);
+  display: grid;
+  gap: 4px;
+  /* grid-template-columns: repeat(4, 1fr);
   grid-template-rows: repeat(6, 1fr);
   grid-column-gap: 2px;
-  grid-row-gap: 2px;
+  grid-row-gap: 2px;*/
+}
+main div {
+  height: 100px;
 }
 
 .spot3,
@@ -136,5 +203,5 @@ main {
   border: 1px black solid;
   text-align: center;
   background-color: lightgray;
-  height: auto;
+  /*height: auto;*/
 }

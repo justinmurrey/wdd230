@@ -1,6 +1,25 @@
 /* Desktop Views */
 @media only screen and (min-width: 60em) {
   /*navbar*/
+  .social {
+    order: 3;
+    margin-left: 20px;
+  }
+  nav button {
+    display: none;
+  }
+  .container {
+    display: flex;
+  }
+  nav {
+    position: unset;
+  }
+  nav ul#primaryNav {
+    display: flex;
+    margin-left: 2vw;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+
   nav ul li a {
     padding: 0.5rem 1rem;
   }
@@ -13,6 +32,9 @@
     grid-column-gap: 2px;
     grid-row-gap: 2px;
     height: calc(100vh - 80px);
+  }
+  main div {
+    height: unset;
   }
   .event {
     grid-area: 1 / 1 / 3 / 2;
