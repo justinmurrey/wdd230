@@ -1,5 +1,5 @@
 /* Desktop Views */
-@media only screen and (min-width: 60em) {
+@media only screen and (min-width: 70em) {
   /*navbar*/
   .social {
     order: 3;
@@ -74,5 +74,10 @@
   }
   .spot3 {
     display: block;
+  }
+  .actionbtn {
+    position: absolute;
+    bottom: 30px;
+    left: 400px;
   }
 }

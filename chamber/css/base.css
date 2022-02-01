@@ -87,6 +87,15 @@ p {
   font-size: 16px;
   font-family: "Luxurious Roman", cursive;
 }
+#copyright {
+  padding: 0.75rem;
+}
+
+#hero-img {
+  width: 100%;
+  height: 100%;
+  padding: 2px;
+}
 
 /*navBar*/
 .container {
@@ -98,11 +107,12 @@ p {
 header {
   background-color: #396e92;
 }
-
+footer {
+  border-top: 2px solid black;
+}
 img {
   padding-left: 5px;
 }
-
 nav button {
   margin: 0.2rem 2vw;
   background: transparent;
@@ -171,6 +181,7 @@ aside {
   background-color: #396e92;
   text-align: center;
   color: white;
+  border-bottom: 2px solid black;
 }
 
 nav footer {
@@ -192,7 +203,7 @@ main {
   grid-row-gap: 2px;*/
 }
 main div {
-  height: 100px;
+  height: 400px;
 }
 
 .spot3,
@@ -211,5 +222,20 @@ main div {
   border: 1px black solid;
   text-align: center;
   background-color: lightgray;
-  /*height: auto;*/
+}
+/*button*/
+/* From cssbuttons.io */
+.hero {
+  position: relative;
+}
+
+.actionbtn {
+  position: absolute;
+  bottom: 30px;
+  left: 200px;
+  background-color: #396e92;
+  border-radius: 5px;
+  color: #fff;
+  width: 150px;
+  height: 50px;
 }
