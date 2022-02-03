@@ -1,4 +1,11 @@
 /* phone or baseline views */
+:root {
+  --color1: #396e92;
+  --color2: rgb(164, 51, 18);
+  --color3: #fff;
+  --color4: #333;
+  -background-coloor: lightgray;
+}
 header {
   background-color: #fff;
   padding: 5px 0;
@@ -126,6 +133,7 @@ nav {
   right: 0;
   top: 10px;
   background-color: #396e92;
+  z-index: 2;
 }
 
 nav ul {
@@ -225,6 +233,44 @@ main div {
 }
 /*button*/
 /* From cssbuttons.io */
+
+.hero {
+}
+.event h1,
+h2 {
+  color: var(--color2);
+  margin-top: 10px;
+  padding: 2px;
+}
+
+.weather h1,
+h2 {
+  color: var(--color2);
+  margin-top: 10px;
+  padding: 2px;
+}
+#temp {
+  text-align: center;
+}
+.weather-img {
+  display: grid;
+  grid-template-rows: none;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  text-align: center;
+}
+.join {
+}
+.news {
+}
+.spot1 {
+}
+.spot2 {
+}
+
+.spot3 {
+}
+
 .hero {
   position: relative;
 }
@@ -238,4 +284,12 @@ main div {
   color: #fff;
   width: 150px;
   height: 50px;
+  font-size: 20px;
+  opacity: 90%;
+}
+.banner p {
+  background-color: #396e92;
+  color: wheat;
+  text-align: center;
+  width: 90%;
 }

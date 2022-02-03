@@ -1,5 +1,8 @@
 /* Tablet Views */
 @media only screen and (min-width: 40em) {
+  .banner p {
+    width: unset;
+  }
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
@@ -13,7 +16,9 @@
   .actionbtn {
     position: absolute;
     bottom: 30px;
-    left: 500px;
+    right: 4vw;
+    left: unset;
+    /*left: 500px;*/
     /*background-color: #396e92;
     color: #fff;*/
   }

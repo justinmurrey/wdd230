@@ -1,6 +1,23 @@
 /* Desktop Views */
 @media only screen and (min-width: 70em) {
+  .hero {
+  }
+  .event {
+  }
+  .weather {
+  }
+  .news {
+  }
+  .spot1 {
+  }
+  .spot2 {
+  }
+
+  .spot3 {
+  }
+
   /*navbar*/
+
   .social {
     order: 3;
     margin-left: 20px;
