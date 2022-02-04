@@ -1,11 +1,4 @@
 /* phone or baseline views */
-:root {
-  --color1: #396e92;
-  --color2: rgb(164, 51, 18);
-  --color3: #fff;
-  --color4: #333;
-  -background-coloor: lightgray;
-}
 header {
   background-color: #fff;
   padding: 5px 0;
@@ -131,7 +124,7 @@ nav button {
 nav {
   position: absolute;
   right: 0;
-  top: 10px;
+  top: 45px;
   background-color: #396e92;
   z-index: 2;
 }
@@ -218,7 +211,6 @@ main div {
 .join {
   display: none;
 }
-
 .hero,
 .event,
 .weather,
@@ -227,48 +219,31 @@ main div {
 .spot1,
 .spot2,
 .spot3 {
-  border: 1px black solid;
+  border: 2px solid #333;
   text-align: center;
   background-color: lightgray;
 }
-/*button*/
-/* From cssbuttons.io */
-
-.hero {
-}
-.event h1,
-h2 {
-  color: var(--color2);
+.text {
+  color: rgb(164, 51, 18);
   margin-top: 10px;
   padding: 2px;
-}
-
-.weather h1,
-h2 {
-  color: var(--color2);
-  margin-top: 10px;
-  padding: 2px;
-}
-#temp {
-  text-align: center;
 }
 .weather-img {
   display: grid;
-  grid-template-rows: none;
   grid-template-columns: 1fr 1fr;
   justify-content: center;
+  justify-self: center;
   text-align: center;
 }
-.join {
-}
-.news {
-}
-.spot1 {
-}
-.spot2 {
-}
-
-.spot3 {
+.joinus {
+  margin: 5px;
+  background-color: #396e92;
+  border-radius: 10px;
+  color: wheat;
+  width: 90%;
+  height: 50px;
+  font-size: 20px;
+  opacity: 90%;
 }
 
 .hero {
@@ -280,7 +255,7 @@ h2 {
   bottom: 30px;
   left: 200px;
   background-color: #396e92;
-  border-radius: 5px;
+  border-radius: 10px;
   color: #fff;
   width: 150px;
   height: 50px;
@@ -288,8 +263,15 @@ h2 {
   opacity: 90%;
 }
 .banner p {
-  background-color: #396e92;
-  color: wheat;
+  background-color: lightgray;
+  color: firebrick;
   text-align: center;
-  width: 90%;
+  border-bottom: 2px solid black;
+  padding-bottom: 5px;
+}
+#rhino,
+#tree,
+#move {
+  width: 300px;
+  display: block;
 }
