@@ -249,6 +249,9 @@ main div {
 .hero {
   position: relative;
 }
+main picture.hero {
+  width: 100%;
+}
 
 .actionbtn {
   position: absolute;
@@ -274,4 +277,13 @@ main div {
 #move {
   width: 300px;
   display: block;
+}
+#banner {
+  display: none;
+  background-color: lightgray;
+  color: red;
+
+  text-align: center;
+  margin-bottom: 5px;
+  font-family: "Montserrat", serif;
 }
