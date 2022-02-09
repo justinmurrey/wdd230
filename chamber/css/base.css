@@ -280,10 +280,10 @@ main picture.hero {
 }
 #banner {
   display: none;
-  background-color: lightgray;
+  background-color: gray;
   color: red;
-
+  padding: 1px;
   text-align: center;
-  margin-bottom: 5px;
+  border-bottom: 2px solid #333;
   font-family: "Montserrat", serif;
 }
