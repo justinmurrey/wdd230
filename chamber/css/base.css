@@ -203,14 +203,12 @@ main {
   grid-column-gap: 2px;
   grid-row-gap: 2px;*/
 }
-main div {
-  height: 400px;
-}
 
 .spot3,
 .join {
   display: none;
 }
+
 .hero,
 .event,
 .weather,
@@ -225,16 +223,12 @@ main div {
 }
 .text {
   color: rgb(164, 51, 18);
-  margin-top: 10px;
   padding: 2px;
 }
-.weather-img {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
-  justify-content: center;
-  justify-self: center;
-  text-align: center;
+
+.weatherapp h2 {
 }
+
 .joinus {
   margin: 5px;
   background-color: #396e92;
@@ -276,7 +270,6 @@ main picture.hero {
 #tree,
 #move {
   width: 300px;
-  display: block;
 }
 #banner {
   display: none;

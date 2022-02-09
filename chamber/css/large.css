@@ -80,9 +80,14 @@
     position: absolute;
     bottom: 30px;
   }
-  #rhino,
-  #tree,
+  #rhino {
+    width: 75px;
+    justify-content: center;
+  }
+  #tree {
+    width: 65px;
+  }
   #move {
-    display: none;
+    width: 100px;
   }
 }
