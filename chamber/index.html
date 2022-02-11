@@ -65,7 +65,9 @@
 
     <main>
         <picture class="hero">
-            <img src="images/sonset.jpg" alt="sunset picuter" id="hero-img">
+            <source media="(min-width: 60em)" srcset="images/w6-large.jpg">
+            <source media="(min-width: 37em)" srcset="images/w6-medium.jpg">
+            <img src="images/W6-small.jpg" id="hero-img" alt="">
             <button class="actionbtn">Join the team</button>
         </picture>
         <div class=" event">
@@ -85,13 +87,15 @@
             <h2 class="text">
                 Weather
             </h2>
-            <section class="weatherapp">
-                <!-- the DIV that will contain the widget -->
-                <div class="weatherWidget"></div>
-                <h2 class="text">
-                    windchill
-                </h2>
+            <section>
+                <p class="text">Currently: <span id="temp">30</span>℉</p>
+                <p class="text">Wind Speed: <span id="speed">10</span> mph</p>
+                <p class="text">WindChill: <span id="wind"></span></p>
             </section>
+
+        </div>
+
+        </section>
 
 
         </div>
@@ -193,6 +197,7 @@
     <script src="js/date.js"></script>
     <script src="js/currntyear.js"></script>
     <script src="js/lastModified.js"></script>
+    <script src="js/windchill.js"></script>
     <script src="js/script.js"></script>
 </body>
 
