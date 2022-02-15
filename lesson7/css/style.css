@@ -1,0 +1,30 @@
+* {
+  margin: 0;
+  padding: 0;
+  text-align: center;
+}
+
+.animals {
+  width: 300px;
+  height: 400px;
+  flex-direction: column;
+  padding: 10px;
+}
+nav ul {
+  list-style: none;
+  text-align: center;
+  align-content: center;
+}
+a {
+  text-decoration: none;
+}
+
+.wrapper {
+  margin: 0 auto;
+  background-color: aquamarine;
+  height: 50px;
+}
+
+nav {
+  color: black;
+}
