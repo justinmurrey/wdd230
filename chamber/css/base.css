@@ -272,8 +272,85 @@ main picture.hero {
   display: none;
   background-color: gray;
   color: red;
-  padding: 1px;
+  padding: 5px;
   text-align: center;
   border-bottom: 2px solid #333;
   font-family: "Montserrat", serif;
+}
+/* discover page*/
+.discover {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.card {
+  color: white;
+  background-image: url("../images/tablet.jpg");
+  border-radius: 0.5rem;
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 35ch;
+  margin: 5px;
+  overflow: hidden;
+
+  transform: transform 500 ease;
+}
+
+.card:hover {
+  transform: scale(1.05);
+}
+
+.card-content {
+  padding: 1.5rem;
+  background: linear-gradient(
+    hsl(0 0% 0% /0),
+    hsl(20 0% 0% / 0.3) 20%,
+    hsl(0 0% 0% /1)
+  );
+  transform: translateY(77%);
+  transition: transform 500ms ease;
+}
+
+.card:hover .card-content {
+  transform: translateY(0%);
+}
+
+.card-content > *:not(.card-title) {
+  opacity: 0;
+  transition: transform 500ms linear;
+}
+.card:hover .card-content > *:not(.card-title) {
+  opacity: 1;
+}
+.card-title {
+  position: relative;
+  width: max-content;
+  padding: 2px;
+}
+
+.card-title::after {
+  content: "";
+  position: absolute;
+  height: 4px;
+  left: 0;
+  bottom: 0;
+  width: 100%;
+  background: #396e92;
+  transform: scaleX(0);
+  transform-origin: left;
+  transition: transform 500ms ease;
+}
+
+.card:hover .card-title::after {
+  transform: scaleX(1);
+}
+
+.button {
+  cursor: pointer;
+  display: inline-block;
+  text-decoration: none;
+  color: #fff;
+  background-color: #396e92;
+  padding: 0.4em;
+  border-radius: 0.2rem;
 }

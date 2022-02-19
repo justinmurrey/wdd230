@@ -64,12 +64,14 @@
     <aside></aside>
 
     <main>
-        <picture class="hero">
-            <source media="(min-width: 60em)" srcset="images/pc.jpg">
-            <source media="(min-width: 37em)" srcset="images/tablet.jpg">
-            <img src="images/phone.jpg" id="hero-img" alt="the hero-img">
+        <div class="hero">
+            <picture>
+                <source media="(min-width: 60em)" srcset="images/pc.jpg">
+                <source media="(min-width: 37em)" srcset="images/tablet.jpg">
+                <img src="images/phone.jpg" id="hero-img" alt="the hero-img">
+            </picture>
             <button class="actionbtn">Join the team</button>
-        </picture>
+        </div>
 
         <div class="event">
             <h2 class="text">
@@ -84,10 +86,11 @@
             </p>
         </div>
         <div class="weather">
-            <h2 class="text">
-                Weather
-            </h2>
             <section>
+                <h2 class="text">
+                    Weather
+                </h2>
+
                 <p class="text">Currently: <span id="temp">30</span>℉</p>
                 <p class="text">Wind Speed: <span id="speed">10</span> mph</p>
                 <p class="text">WindChill: <span id="wind"></span></p>
