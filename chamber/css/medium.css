@@ -40,8 +40,8 @@
   }
   main {
     display: grid;
-    /*grid-template-rows: 1fr 1fr 1fr 1fr 1fr;*/
-    grid-template-columns: 1fr 1fr 1fr 1fr;
+
+    /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
     gap: 0px;
     /*height: calc(100vh - 80px);*/
   }
@@ -104,5 +104,10 @@
 
     grid-row-end: 6;
     grid-column-end: 5;
+  }
+  /* discover page*/
+  .discover {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
   }
 }
