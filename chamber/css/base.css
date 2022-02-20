@@ -281,16 +281,44 @@ main picture.hero {
 .discover {
   display: unset;
 }
-.card {
-  color: white;
-  background-image: url("../images/tablet.jpg");
-  border-radius: 0.5rem;
-  background-size: cover;
-  padding: 10rem 0 0;
-  max-width: 35ch;
-  margin: 5px;
-  overflow: hidden;
-  transform: transform 500 ease;
+
+/* Card 1*/
+
+.card1 {
+  background-image: url("../images/rhino2.jpg");
+}
+
+/* Card 2*/
+.card2 {
+  background-image: url("../images/ice-cream.jpg");
+}
+/* Card 3*/
+.card3 {
+  background-image: url("../images/george-washington.jpg");
+}
+/* Card 4*/
+.card4 {
+  background-image: url("../images/putnam-hill-park.jpg");
+}
+/* Card 5*/
+.card5 {
+  background-image: url("../images/lorea.jpg");
+}
+/* Card 6*/
+.card6 {
+  background-image: url("../images/kidzville.jpg");
+}
+/* Card 7*/
+.card7 {
+  background-image: url("../images/ohio-dillon-state-park.jpg");
+}
+/* Card 8*/
+.card8 {
+  background-image: url("../images/zsc.jpg");
+}
+/* Card 9*/
+.card9 {
+  background-image: url("../images/ouz.jpg");
 }
 
 .card:hover {
@@ -299,17 +327,13 @@ main picture.hero {
 
 .card-content {
   padding: 1.5rem;
-  background: linear-gradient(
-    hsl(0 0% 0% /0),
-    hsl(20 0% 0% / 0.3) 20%,
-    hsl(0 0% 0% /1)
-  );
 }
 
 .card-title {
   position: relative;
   max-width: fit-content;
   padding-bottom: 4px;
+  color: wheat;
 }
 
 .card-title::after {
@@ -334,7 +358,7 @@ main picture.hero {
 
 @media (hover) {
   .card-content {
-    transform: translateY(70%);
+    transform: translateY(75%);
     transition: transform 500ms ease;
   }
   .card:hover .card-content {
@@ -355,12 +379,20 @@ main picture.hero {
     transform: scaleX(0);
   }
 }
-
+.card {
+  border-radius: 0.5rem;
+  background-size: cover;
+  padding: 10rem 0 0;
+  max-width: 35ch;
+  margin: 5px;
+  overflow: hidden;
+  transform: transform 500ms ease;
+}
 .button {
   cursor: pointer;
   display: inline-block;
   text-decoration: none;
-  color: #fff;
+  color: wheat;
   background-color: #396e92;
   padding: 0.5em 1em;
   border-radius: 0.25em;

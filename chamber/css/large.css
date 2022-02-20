@@ -32,7 +32,6 @@
     grid-template-rows: repeat(6, 1fr);
     grid-column-gap: 2px;
     grid-row-gap: 2px;
-    height: calc(100vh - 80px);
   }
   main div {
     height: unset;
@@ -91,4 +90,7 @@
     width: 100px;
   }
   /* discover page*/
+  .card {
+    overflow: unset;
+  }
 }
