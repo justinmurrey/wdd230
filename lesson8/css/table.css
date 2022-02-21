@@ -1,6 +1,7 @@
 table {
   width: 300px;
   justify-items: center;
+  font-family: "Ubuntu", sans-serif;
 }
 caption {
   font-size: 30px;
