@@ -93,4 +93,10 @@
   .card {
     overflow: unset;
   }
+  .discover {
+    grid-template-rows: 1fr 1fr 1fr;
+  }
+  .join {
+    grid-template-rows: 1fr 1fr;
+  }
 }
