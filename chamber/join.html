@@ -52,9 +52,10 @@
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
                 <li><a href="index.html">Home</a></li>
-                <li class=" active"><a href="discover.html">Discover</a></li>
-                <li><a href="#">Direcyory</a></li>
-                <li><a href="#">Join</a></li>
+                <li><a href="discover.html">Discover</a></li>
+                <li class=" active"><a href="join.html">Join</a></li>
+                <li><a href="#"></a></li>
+
                 <li><a href="#">Contact</a></li>
             </ul>
         </nav>
@@ -65,13 +66,107 @@
     <h1 class="text">
         Hello join world
     </h1>
-    <main class="join">
+    <hr>
+    <main class="joinpage">
         <form method="get" action="thankyou.html">
+            <fieldset>
+                <legend>Join Your Team</legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
 
+                <label class="top">Last Name*<input type="text" name="lname" required></label>
+
+                <label class="top">Business Title<input type="text" name=" businesstitle"
+                        pattern="[A-Za-z0-7]+"></label>
+
+                <label class="top">Phone<input type="tel" name="phone" required placeholder="(123)456-7890"></label>
+
+                <label class="top">email*<input type="email" name="email" placeholder="someonr@gmail.com"
+                        required></label>
+
+                <label class="top">Business Name<input type="text" name=" businessname" required></label>
+
+                <div>Memberships</div>
+                <label class="sbs"><input type="radio" name="membership" value="nonprofit ">NP</label>
+
+                <label class="sbs"><input type="radio" name="membership" value="bronze ">Bronze Membership</label>
+
+                <label class="sbs"><input type="radio" name="membership" value="Silver ">Silver Membership</label>
+
+                <label class="sbs"><input type="radio" name="Membership" value="Gold ">Gold Membership</label>
+
+                <label class="top">Business description</label>
+                <textarea name=" description " class="top" cols="30" rows="10"></textarea>
+
+                <input type="hidden" id="date" name="date" value=""></label>
+
+                <input type="submit" value="Join the team" class="submitBtn">
+            </fieldset>
 
         </form>
+        <section class="membership">
+            <div class="membership1">
+                <div class="membership-title">
+                    <h1 class="title1">
+                        Non Profit Organizations
+                    </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price1"> FREE </h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail1">✔ A card on the Discover page.</p>
+                <p class="detail1">✔ 2 times a month on spotlight.</p>
+                <p class="detail1">✔ A listing on Directory page.</p>
+            </div>
+
+            <div class="membership2">
+                <div class="membership-title">
+                    <h1 class="title2">
+                        Bronze Membership
+                    </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price2">$50</h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail2">✔ A card on the Discover page.</p>
+                <p class="detail2">✔ 2 times a month on spotlight.</p>
+                <p class="detail2">✔ A listing on Directory page.</p>
+            </div>
+
+            <div class="membership3">
+                <div class="membership-title">
+                    <h1 class="title3">
+                        Silver Membership
+                    </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price3">$75</h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail3">✔ A card on the Discover page.</p>
+                <p class="detail3">✔ 2 times a month on spotlight.</p>
+                <p class="detail3">✔ A listing on Directory page.</p>
+            </div>
+
+            <div class="membership4">
+                <div class="membership-title">
+                    <h1 class="title4">
+                        Gold Membership
+                    </h1>
+                </div>
+                <div class="membership-price">
+                    <h1 class="price4"> $100 </h1>
+                </div>
+                <p class="membership-detail">
+                <p class="detail4">✔ A card on the Discover page.</p>
+                <p class="detail4">✔ 2 times a month on spotlight.</p>
+                <p class="detail4">✔ A listing on Directory page.</p>
+            </div>
+        </section>
     </main>
     <footer>
+        <p class="daysOfVisit"></p>
         <section class="wrapper">
             <div>
                 <img src="images/chamberofcommercelogo2.png" alt="logo">
@@ -96,21 +191,16 @@
         <p id="copyright">
             &copy; <span id="currentyear"></span> Zanesville City Chamber | Justin Murrey | wdd-230 Chamber |
             <span id="lastModified"></span>
-            <hr>
-        <p>
-            <span>Number of Visits: </span>
-            <span class="visits"></span>
-        </p>
 
     </footer>
+    <script src="js/hiddentime.js"></script>
     <script src="js/localStorage.js"></script>
-    <script src="js/weather.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/date.js"></script>
     <script src="js/currntyear.js"></script>
     <script src="js/lastModified.js"></script>
-    <script src="js/windchill.js"></script>
-    <script src="js/script.js"></script>
+
 </body>
 
 </html>
