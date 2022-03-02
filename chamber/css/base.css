@@ -286,7 +286,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /*height: 320px;*/
   background: #000;
   background: url(../images/babyrhino.jpg);
   background-size: cover;
@@ -301,7 +301,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /* height: 320px;*/
   background: #000;
   background: url(../images/ice-cream.jpg);
   background-size: cover;
@@ -316,7 +316,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /*height: 320px;*/
   background: #000;
   background: url(../images/george-washington.jpg);
   background-size: cover;
@@ -331,7 +331,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /*height: 320px;*/
   background: #000;
   background: url(../images/putnam-hill-park.jpg);
   background-size: cover;
@@ -346,7 +346,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /* height: 320px;*/
   background: #000;
   background: url(../images/lorea.jpg);
   background-size: cover;
@@ -361,7 +361,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /* height: 320px;*/
   background: #000;
   background: url(../images/kidzville.jpg);
   background-size: cover;
@@ -376,7 +376,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /*height: 320px;*/
   background: #000;
   background: url(../images/ohio-dillon-state-park.jpg);
   background-size: cover;
@@ -391,7 +391,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /* height: 320px;*/
   background: #000;
   background: url(../images/zsc.jpg);
   background-size: cover;
@@ -406,7 +406,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  height: 320px;
+  /*height: 320px;*/
   background: #000;
   background: url(../images/ouz.jpg);
   background-size: cover;
@@ -436,8 +436,7 @@ main picture.hero {
 }
 /* join page*/
 .joinpage {
-  display: grid;
-  grid-template-columns: 1fr 1fr;
+  margin: 10px;
 }
 /*Form*/
 form fieldset {
@@ -508,7 +507,6 @@ form label.top input:required:valid {
   font-family: sans-serif;
   text-align: center;
   max-width: 100%;
-  height: 300px;
   margin: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 1.5);
   padding: 5px;

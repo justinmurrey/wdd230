@@ -110,4 +110,9 @@
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
   }
+  /*join*/
+  .joinpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
 }
