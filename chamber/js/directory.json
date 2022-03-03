@@ -1,88 +1,88 @@
 {
   "companies": [
     {
-      "imageurl": "",
-      "name": "Joseph",
-      "address": "Smith",
-      "phone": "23 December 1805",
-      "websit": "27 June 1844"
+      "name": "firstCompany",
+      "address": "fakeStreet123",
+      "phone": "123123456",
+      "website": "example.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Brigham",
-      "address": "",
-      "phone": "01 June 1801",
-      "websit": "29 August 1877"
+      "name": "secondCompany",
+      "address": "secondFake123",
+      "phone": "365489965",
+      "website": "secondcompany.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "John",
-      "address": "Taylor",
-      "phone": "01 November 1808",
-      "websit": "25 July 1887"
+      "name": "thirdCompany",
+      "address": "thirdFake123",
+      "phone": "389874534",
+      "website": "third.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Wilford",
-      "address": "Woodruff",
-      "phone": "01 March 1807",
-      "websit": "02 September 1898"
+      "name": "fourthCompany",
+      "address": "fourthFake123",
+      "phone": "879768454",
+      "website": "fourth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Lorenzo",
-      "address": "Snow",
-      "phone": "03 April 1814",
-      "websit": "19 October 1901"
+      "name": "fifthCompany",
+      "address": "fifthFake123",
+      "phone": "455635486",
+      "website": "fifth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Joseph F.",
-      "address": "Smith",
-      "phone": "12 November 1838",
-      "websit": "19 November 1918"
+      "name": "sixthCompany",
+      "address": "sixthFake123",
+      "phone": "2132121121",
+      "website": "sixth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Heber J.",
-      "address": "Grant",
-      "phone": "22 November 1856",
-      "websit": "14 May 1945"
+      "name": "seventhCompany",
+      "address": "seventhFake123",
+      "phone": "465486746",
+      "website": "seventh.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "George A.",
-      "address": "Smith",
-      "phone": "4 April 1870",
-      "websit": "4 April 1951"
+      "name": "eighthCompany",
+      "address": "eighthFake123",
+      "phone": "456545645458",
+      "website": "eighth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "David O.",
-      "address": "McKay",
-      "phone": "8 September 1873",
-      "websit": "18 January 1970"
+      "name": "ninethCompany",
+      "address": "ninethFake123",
+      "phone": "872184564321",
+      "website": "nineth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Joseph Fielding",
-      "address": "Smith",
-      "phone": "19 July 1876",
-      "websit": "2 July 1972"
+      "name": "tenthCompany",
+      "address": "tenthFake123",
+      "phone": "1234564123",
+      "website": "tenth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Harold B.",
-      "address": "Lee",
-      "phone": "28 March 1899",
-      "websit": "26 December 1973"
+      "name": "eleventhCompany",
+      "address": "eleventhFake123",
+      "phone": "1234567891",
+      "website": "eleventh.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     },
     {
-      "imageurl": "",
-      "name": "Spencer W.",
-      "address": "Kimball",
-      "phone": "28 March 1895",
-      "websit": "5 November 1985"
+      "name": "twelvethCompany",
+      "address": "twelvethFake123",
+      "phone": "741258963",
+      "website": "twelveth.com",
+      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
     }
   ]
 }
