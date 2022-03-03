@@ -1,88 +1,88 @@
 {
   "companies": [
     {
-      "name": "firstCompany",
-      "address": "fakeStreet123",
-      "phone": "123123456",
+      "name": "The Wilds",
+      "address": "1234 wilds st",
+      "phone": "123-123-456",
       "website": "example.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "images": "images/placehold.png"
     },
     {
       "name": "secondCompany",
       "address": "secondFake123",
       "phone": "365489965",
       "website": "secondcompany.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "thirdCompany",
       "address": "thirdFake123",
       "phone": "389874534",
       "website": "third.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "fourthCompany",
       "address": "fourthFake123",
       "phone": "879768454",
       "website": "fourth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "fifthCompany",
       "address": "fifthFake123",
       "phone": "455635486",
       "website": "fifth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "sixthCompany",
       "address": "sixthFake123",
       "phone": "2132121121",
       "website": "sixth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "seventhCompany",
       "address": "seventhFake123",
       "phone": "465486746",
       "website": "seventh.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "eighthCompany",
       "address": "eighthFake123",
       "phone": "456545645458",
       "website": "eighth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "ninethCompany",
       "address": "ninethFake123",
       "phone": "872184564321",
       "website": "nineth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "tenthCompany",
       "address": "tenthFake123",
       "phone": "1234564123",
       "website": "tenth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "eleventhCompany",
       "address": "eleventhFake123",
       "phone": "1234567891",
       "website": "eleventh.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "twelvethCompany",
       "address": "twelvethFake123",
       "phone": "741258963",
       "website": "twelveth.com",
-      "imageurl": "https://github.com/justinmurrey/wdd230/blob/main/chamber/images/placehold.png"
+      "imageurl": "images/placehold.png"
     }
   ]
 }

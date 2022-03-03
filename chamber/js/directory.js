@@ -1,6 +1,5 @@
-const requestURL = "";
-
-const requestURL = " https://nemo3003.github.io/wdd230/chamber/js/data.json";
+const requestURL =
+  "https://justinmurrey.github.io/wdd230/chamber/js/directory.json";
 
 fetch(requestURL)
   .then(function (response) {

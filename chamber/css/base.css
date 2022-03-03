@@ -568,3 +568,9 @@ form label.top input:required:valid {
   text-align: center;
   font-size: 30px;
 }
+/*Directory pad*/
+.directory {
+}
+.title-dir {
+  color: #000;
+}
