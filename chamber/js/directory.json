@@ -5,7 +5,7 @@
       "address": "1234 wilds st",
       "phone": "123-123-456",
       "website": "example.com",
-      "images": "images/placehold.png"
+      "imageurl": "images/placehold.png"
     },
     {
       "name": "secondCompany",
