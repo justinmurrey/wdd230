@@ -569,7 +569,7 @@ form label.top input:required:valid {
   font-size: 30px;
 }
 /*Directory pad*/
-
+.directory p,
 .title-dir {
   color: #000;
 }

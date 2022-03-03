@@ -1,37 +1,37 @@
 {
   "companies": [
     {
-      "name": "The Wilds",
+      "name": "THE WILD'S",
       "address": "1234 wilds st",
       "phone": "123-123-456",
       "website": "example.com",
       "imageurl": "images/placehold.png"
     },
     {
-      "name": "secondCompany",
-      "address": "secondFake123",
-      "phone": "365489965",
+      "name": "TOM'S ICE CREAM BOWL",
+      "address": "1234 ice cr",
+      "phone": "365-489-965",
       "website": "secondcompany.com",
       "imageurl": "images/placehold.png"
     },
     {
-      "name": "thirdCompany",
-      "address": "thirdFake123",
+      "name": " ALAN COTTRILL SCULPTURE STUDIO & GALLERY",
+      "address": "5678 Alens ln",
       "phone": "389874534",
       "website": "third.com",
       "imageurl": "images/placehold.png"
     },
     {
-      "name": "fourthCompany",
-      "address": "fourthFake123",
+      "name": " PUTNUM HILL PARK",
+      "address": "9011 HILL ST",
       "phone": "879768454",
       "website": "fourth.com",
       "imageurl": "images/placehold.png"
     },
     {
-      "name": "fifthCompany",
-      "address": "fifthFake123",
-      "phone": "455635486",
+      "name": "LORENA STERNWHEELER",
+      "address": "3456 river rd",
+      "phone": "455-635-486",
       "website": "fifth.com",
       "imageurl": "images/placehold.png"
     },
