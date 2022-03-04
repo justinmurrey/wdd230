@@ -5,14 +5,14 @@
       "address": "1234 wilds st",
       "phone": "123-123-456",
       "website": "example.com",
-      "imageurl": "images/rhino.png"
+      "imageurl": "images/rhino-icon.png"
     },
     {
       "name": "TOM'S ICE CREAM BOWL",
       "address": "1234 ice cr",
       "phone": "365-489-965",
       "website": "secondcompany.com",
-      "imageurl": "images/icecream-cone.png"
+      "imageurl": "images/ice-cream2.png"
     },
     {
       "name": "ALAN COTTRILL SCULPTURE STUDIO",
@@ -54,21 +54,21 @@
       "address": "123 School ln",
       "phone": "456545645458",
       "website": "eighth.com",
-      "imageurl": "images/school-cap.png"
+      "imageurl": "images/school-cap.png "
     },
     {
       "name": "ZANES STATE",
       "address": "123 Zanes st",
       "phone": "872184564321",
       "website": "nineth.com",
-      "imageurl": "images/placehold.png"
+      "imageurl": "images/school.png"
     },
     {
-      "name": "tenthCompany",
-      "address": "tenthFake123",
+      "name": "HOT COCO CAFE",
+      "address": "123 CAFE Rd",
       "phone": "1234564123",
       "website": "tenth.com",
-      "imageurl": "images/placehold.png"
+      "imageurl": "images/c"
     },
     {
       "name": "eleventhCompany",
