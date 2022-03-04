@@ -116,9 +116,7 @@
     margin: 1rem;
     box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
   }
-  .main-footer {
-    min-height: 10px;
-  }
+
   div.cards {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;

@@ -594,7 +594,6 @@ form label.top input:required:valid {
   background: #f7f7f7;
 }
 
-/* (B) TRANSFORM INTO GRID VIEW */
 #cards.grid {
   grid-template-columns: repeat(3, 1fr);
 }
