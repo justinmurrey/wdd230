@@ -98,7 +98,8 @@
   }
   /*Directory page - ending*/
 
-  .title-dir {
+  .title-dir,
+  p {
     text-align: center;
   }
 

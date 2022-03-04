@@ -5,7 +5,7 @@
       "address": "1234 wilds st",
       "phone": "123-123-456",
       "website": "example.com",
-      "imageurl": "images/placehold.png"
+      "imageurl": "images/rhino.png"
     },
     {
       "name": "TOM'S ICE CREAM BOWL",
@@ -15,7 +15,7 @@
       "imageurl": "images/placehold.png"
     },
     {
-      "name": " ALAN COTTRILL SCULPTURE STUDIO & GALLERY",
+      "name": "ALAN COTTRILL SCULPTURE STUDIO",
       "address": "5678 Alens ln",
       "phone": "389874534",
       "website": "third.com",

@@ -573,3 +573,31 @@ form label.top input:required:valid {
 .title-dir {
   color: #000;
 }
+.main-dir {
+  display: flex;
+  height: fit-content;
+  margin: 1rem;
+}
+#cards {
+  display: grid;
+  grid-template-columns: 100%;
+  grid-gap: 5px;
+  margin: 0 auto;
+}
+#cards .item {
+  display: flex;
+  padding: 10px;
+  border: 1px solid #ddd;
+  justify-content: space-around;
+}
+#cards .item:nth-child(odd) {
+  background: #f7f7f7;
+}
+
+/* (B) TRANSFORM INTO GRID VIEW */
+#cards.grid {
+  grid-template-columns: repeat(3, 1fr);
+}
+#cards.grid .item:nth-child(odd) {
+  background: none;
+}
