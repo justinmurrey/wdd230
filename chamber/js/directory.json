@@ -68,21 +68,21 @@
       "address": "123 CAFE Rd",
       "phone": "1234564123",
       "website": "tenth.com",
-      "imageurl": "images/c"
+      "imageurl": "images/hot-coco.png"
     },
     {
-      "name": "eleventhCompany",
+      "name": "CAFE CORNER",
       "address": "eleventhFake123",
       "phone": "1234567891",
       "website": "eleventh.com",
-      "imageurl": "images/placehold.png"
+      "imageurl": "images/cafe-cup.png"
     },
     {
-      "name": "twelvethCompany",
-      "address": "twelvethFake123",
+      "name": "CHINA MAX",
+      "address": "5557 max ln",
       "phone": "741258963",
       "website": "twelveth.com",
-      "imageurl": "images/placehold.png"
+      "imageurl": "images/chineser-food.png"
     }
   ]
 }
