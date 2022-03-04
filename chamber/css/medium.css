@@ -115,4 +115,24 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
+  /*Directory pad*/
+
+  .cards {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-column-gap: 2px;
+    grid-row-gap: 2px;
+  }
+
+  .img-dir {
+    max-width: 12.5rem;
+    align-items: center;
+    box-shadow: 0px 4px 5px 0px rgba(0, 0, 0, 0.75);
+  }
+  /*Directory page - ending*/
+  div.cards {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    margin: 0 auto;
+  }
 }
