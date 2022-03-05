@@ -576,9 +576,7 @@ form label.top input:required:valid {
 img {
   display: none;
 }
-section {
-  margin: 10px;
-}
+
 .main-dir {
   display: flex;
   height: fit-content;
@@ -605,4 +603,81 @@ section {
 }
 #cards.grid .item:nth-child(odd) {
   background: none;
+}
+/*list to grid button*/
+.li-list,
+.li-grid {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  color: #fff;
+  justify-content: center;
+  display: block;
+}
+
+.links {
+  margin-bottom: 20px;
+  background: #396e92;
+}
+
+.links ul {
+  display: flex;
+  justify-content: center;
+}
+
+.links ul li {
+  margin: 0 10px;
+  cursor: pointer;
+}
+
+.links ul li:hover,
+.links ul li:active {
+  color: wheat;
+}
+
+.view_item img {
+  width: 75px;
+}
+
+.view_main {
+  padding: 15px;
+}
+
+.list-view,
+.view_item {
+  border: 1px solid #333;
+  margin: 10px;
+  padding: 10px 20px;
+  display: flex;
+  align-items: center;
+}
+
+.list-view .view_item:last-child {
+  margin-bottom: 0;
+}
+
+.list-view .view_item .vi_left {
+  margin-right: 25px;
+}
+.view_item .title-wilds,
+.view_item .title-toms,
+.view_item .title-alens,
+.view_item .title-park1,
+.view_item .title-boat,
+.view_item .title-kidzville,
+.view_item .title-dillon,
+.view_item .title-ouz,
+.view_item .title-zanes,
+.view_item .title-coco,
+.view_item .title-cafe,
+.view_item .title-chinese {
+  font-weight: 600;
+  border-bottom: 2px solid #333;
+}
+
+.view_item .content {
+  margin: 5px 0;
+  font-size: 14px;
+  line-height: 22px;
+  font-weight: 200;
 }

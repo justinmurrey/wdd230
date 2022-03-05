@@ -12,7 +12,7 @@
       "address": "1234 ice cr",
       "phone": "365-489-965",
       "website": "secondcompany.com",
-      "imageurl": "images/dessert_sweet.png"
+      "imageurl": "images/dessert.png"
     },
     {
       "name": "ALAN COTTRILL SCULPTURE STUDIO",
@@ -22,7 +22,7 @@
       "imageurl": "images/pascha_statue.png"
     },
     {
-      "name": " PUTNUM HILL PARK",
+      "name": "PUTNUM HILL PARK",
       "address": "9011 HILL ST",
       "phone": "879768454",
       "website": "fourth.com",
@@ -43,14 +43,14 @@
       "imageurl": "images/city_park.png"
     },
     {
-      "name": " DILLON STATE PARK",
+      "name": "DILLON STATE PARK",
       "address": "123 dillon st",
       "phone": "465486746",
       "website": "seventh.com",
       "imageurl": "images/park2.png"
     },
     {
-      "name": "OUZ",
+      "name": "Ohio University Zanesville",
       "address": "123 School ln",
       "phone": "456545645458",
       "website": "eighth.com",
@@ -82,7 +82,7 @@
       "address": "5557 max ln",
       "phone": "741258963",
       "website": "twelveth.com",
-      "imageurl": "images/chinese-food_icon.png"
+      "imageurl": "images/chinese.png"
     }
   ]
 }
