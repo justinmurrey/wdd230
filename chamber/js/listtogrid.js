@@ -1,4 +1,5 @@
-const dataURL = "https://melodycurran.github.io/wdd230/chamber/js/data.json";
+const dataURL =
+  "https://justinmurrey.github.io/wdd230/chamber/js/directory.json";
 const listDiv = document.querySelector(".list-view");
 const cardDiv = document.querySelector(".grid-view");
 
