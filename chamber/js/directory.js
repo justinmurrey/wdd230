@@ -1,6 +1,8 @@
 const requestURL =
   "https://justinmurrey.github.io/wdd230/chamber/js/directory.json";
 
+  const listview =document.querySelector(".list-view");
+  const gridview =document.querySelector(".grid-view");
 fetch(requestURL)
   .then(function (response) {
     return response.json();
@@ -29,7 +31,9 @@ fetch(requestURL)
 
       image.setAttribute("src", companies[i].imageurl);
       title.setAttribute("class", "title-dir");
-      image.setAttribute("class", "img-dir");
+      cardview.appendChild(card) 
+      
+     
 
       document.querySelector("div.cards").appendChild(card);
     }
@@ -58,7 +62,7 @@ fetch(requestURL)
         image.setAttribute("src", companies[i].imageurl);
         title.setAttribute("class", "title-dir");
         image.setAttribute("class", "img-dir");
-  
-        document.querySelector("div.cards").appendChild(card);
+       listview.appendChild(card)
+       l
       }
   });
