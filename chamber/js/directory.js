@@ -32,11 +32,8 @@ fetch(requestURL)
       image.setAttribute("src", companies[i].imageurl);
       title.setAttribute("class", "title-dir");
       cardview.appendChild(card) 
-      
-     
-
-      document.querySelector("div.cards").appendChild(card);
     }
+  }
     .then(function (jsonObject) {
       console.table(jsonObject); // temporary checking for valid response and data parsing
       const companies = jsonObject["companies"];
@@ -62,7 +59,6 @@ fetch(requestURL)
         image.setAttribute("src", companies[i].imageurl);
         title.setAttribute("class", "title-dir");
         image.setAttribute("class", "img-dir");
-       listview.appendChild(card)
-       l
-      }
-  });
+       listview.appendChild(card);
+    }
+  };
