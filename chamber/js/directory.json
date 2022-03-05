@@ -12,7 +12,7 @@
       "address": "1234 ice cr",
       "phone": "365-489-965",
       "website": "secondcompany.com",
-      "imageurl": "images/ice-cream2.png"
+      "imageurl": "images/dessert_sweet.png"
     },
     {
       "name": "ALAN COTTRILL SCULPTURE STUDIO",
@@ -78,11 +78,11 @@
       "imageurl": "images/cafe-cup.png"
     },
     {
-      "name": "CHINA MAX",
+      "name": "CHINESES BOWL",
       "address": "5557 max ln",
       "phone": "741258963",
       "website": "twelveth.com",
-      "imageurl": "images/chineser-food.png"
+      "imageurl": "images/chinese-food_icon.png"
     }
   ]
 }
