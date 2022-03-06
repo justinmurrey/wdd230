@@ -100,7 +100,7 @@
 
   .title-dir,
   p {
-    text-align: center;
+    margin: 5px;
   }
 
   .cards {

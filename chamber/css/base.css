@@ -504,6 +504,7 @@ form label.top input:required:valid {
 .membership2,
 .membership3,
 .membership4 {
+  justify-self: center;
   font-family: sans-serif;
   text-align: center;
   max-width: 100%;
@@ -575,12 +576,14 @@ form label.top input:required:valid {
 }
 img {
   display: none;
+  justify-content: center;
 }
 
 .main-dir {
   display: flex;
   height: fit-content;
   margin: 1rem;
+  border: 1px solid #333;
 }
 #cards {
   display: grid;
@@ -680,4 +683,10 @@ img {
   font-size: 14px;
   line-height: 22px;
   font-weight: 200;
+}
+.directory section {
+  margin: 0 auto;
+  width: fit-content;
+  border: 2px solid black;
+  margin-bottom: 10px;
 }

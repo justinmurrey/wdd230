@@ -1,0 +1,11 @@
+body {
+  width: 35rem;
+  height: fit-content;
+  margin: 0 auto;
+  border: 1px solid #333;
+  margin-top: 5rem;
+}
+h1,
+p {
+  margin: 2rem;
+}
