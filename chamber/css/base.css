@@ -684,9 +684,17 @@ img {
   line-height: 22px;
   font-weight: 200;
 }
+
 .directory section {
-  margin: 0 auto;
-  width: fit-content;
+  margin: 0;
+  justify-items: center;
+  text-align: center;
+  margin: 1rem;
+  border-radius: 1rem;
   border: 2px solid black;
-  margin-bottom: 10px;
+  width: fit-content;
+}
+
+.directory img {
+  justify-self: center;
 }

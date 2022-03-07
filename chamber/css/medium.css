@@ -127,8 +127,9 @@
   }
 
   .img-dir {
-    max-width: 12.5rem;
     align-items: center;
+    display: grid;
+    grid-template-columns: auto;
   }
   div.cards {
     display: grid;
