@@ -1,4 +1,58 @@
-let t = parseFloat(document.querySelector("#temp").textContent);
+const apiurl =
+  " https://api.openweathermap.org/data/2.5/weather?id=4528923appid=7fa4b2c77bd9f2327e12c5154664f731";
+
+fetch(apiurl)
+  .then((response) => response.json())
+  .then((jsonObject) => {
+    console.log(jsonObject);
+
+    const iconURL = `https://openweathermap.org/img/w/${jsonObject.weather[0].icon}.png`;
+
+    let temp = jsonObject.main.temp;
+    let speed = jsonObject.wind.speed;
+    //this line is hor h2
+    document.querySelector(".h2div").textContent = jsonObject.name;
+
+    //this is for weather capption
+    document.querySelector("figcaption").textContent =
+      jsonObject.weather[0].description;
+
+    //thisis for img src
+    document.querySelector("#weathericon").setAttribute("src", iconURL);
+
+    //this is for weather
+    document.querySelector("#weathericon");
+
+    //this is for weather description
+    document.setAttribute("alt", jsonObject.weather[0].description);
+
+    //this is for temp in F
+    document.querySelector(".ctemp").textContent = temp;
+
+    //this is for wind-speed
+    document.querySelector(".wspeed").textContent = `Wind Speed: ${speed} mph`;
+    //this is for humidity
+    document.querySelector(".humiditydiv").textContent =
+      jsonObject.main.humidity;
+
+    //this is for calling windchill function
+    let windChill = computeWindChill(temp, speed);
+
+    document.querySelector(".chill").textContent = `Wind Chill: ${windChill}`;
+  });
+function windChill(temp, speed) {
+  return Math.round(
+    ((f =
+      35.74 +
+      0.6215 * temp -
+      35.75 * Math.pow(speed, 0.16) +
+      0.4275 * temp * Math.pow(speed, 0.16)) *
+      100) /
+      100
+  );
+}
+
+/*let t = parseFloat(document.querySelector("#temp").textContent);
 let s = parseFloat(document.querySelector("#speed").textContent);
 let windchill = "";
 
@@ -21,4 +75,4 @@ function windChill(temp, speed) {
       100) /
       100
   );
-}
+}*/

@@ -87,13 +87,25 @@
         </div>
         <div class="weather">
             <section>
-                <h2 class="text">
+                <h2 class=" h2div text">
+                </h2>
+                <p class="ctemp text"> <span id="current-temp"></span> &deg;F
+                </p>
+                <p class="text wspeed"></p>
+                <p class="text wchill"></p>
+                <p class="text humidityivl"></p>
+                <figure><img src="" alt="" id="weathericon" />
+                    <figcaption></figcaption>
+                </figure>
+
+
+                <!-- <h2 class="text">
                     Weather
                 </h2>
 
                 <p class="text">Currently: <span id="temp">30</span>℉</p>
                 <p class="text">Wind Speed: <span id="speed">10</span> mph</p>
-                <p class="text">WindChill: <span id="wind"></span></p>
+                <p class="text">WindChill: <span id="wind"></span></p>-->
             </section>
 
         </div>
@@ -191,7 +203,8 @@
             <span id="lastModified"></span>
         </p>
     </footer>
-    <script src="js/weather.js"></script>
+
+    <script src="js/weather-api.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/date.js"></script>
     <script src="js/currntyear.js"></script>
