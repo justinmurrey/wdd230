@@ -11,7 +11,7 @@ fetch(apiurl)
     let temp = jsonObject.main.temp;
     let speed = jsonObject.wind.speed;
     //this line is hor h2
-    document.querySelector(".h2div").textContent = jsonObject.name;
+    document.querySelector(".name").textContent = jsonObject.name;
 
     //this is for weather capption
     document.querySelector("figcaption").textContent =
@@ -30,7 +30,7 @@ fetch(apiurl)
     document.querySelector(".ctemp").textContent = temp;
 
     //this is for wind-speed
-    document.querySelector(".wspeed").textContent = `Wind Speed: ${speed} mph`;
+    document.querySelector(".speed").textContent = `Wind Speed: ${speed} mph`;
     //this is for humidity
     document.querySelector(".humiditydiv").textContent =
       jsonObject.main.humidity;
