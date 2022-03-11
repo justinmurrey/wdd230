@@ -81,7 +81,8 @@ buttons.forEach(function (button) {
     if (viewList == "list-view") {
       document.querySelector("." + viewList).style.display = "block";
     } else {
-      document.querySelector("." + viewList).style.display = "block";
+      document.querySelector("." + viewList).style.cssText =
+        "display: grid; grid-template-columns: repeat(3, 1fr)";
     }
   });
 });

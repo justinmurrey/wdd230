@@ -115,10 +115,7 @@
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
-  /*Directory pad*/
-  img {
-    display: block;
-  }
+  /*Directory page*/
   .cards {
     display: grid;
     grid-template-columns: 1fr 1fr;
