@@ -226,15 +226,24 @@ nav footer {
   padding: 2px;
 }
 
+.join {
+  padding-top: 10px;
+}
+
 .joinus {
+  padding: 5px;
+  justify-content: center;
+  list-style: none;
   margin: 5px;
   background-color: #396e92;
-  border-radius: 10px;
-  color: wheat;
+  border-radius: 5px;
+  color: white;
   width: 90%;
   height: 50px;
   font-size: 20px;
+
   opacity: 90%;
+  text-decoration: none;
 }
 
 .hero {
@@ -245,6 +254,9 @@ main picture.hero {
 }
 
 .actionbtn {
+  padding-top: 10px;
+  list-style: none;
+  text-decoration: none;
   position: absolute;
   bottom: 30px;
   left: 200px;
@@ -460,7 +472,8 @@ form div {
   font-size: 0.8rem;
 }
 
-form label.top input {
+form label.top input,
+form textarea.top {
   display: block;
   font-size: 1rem;
   border: solid 1px #555;
@@ -693,3 +706,4 @@ img {
   border: 2px solid black;
   width: fit-content;
 }
+/*contact*/

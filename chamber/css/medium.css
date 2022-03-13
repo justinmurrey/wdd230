@@ -111,7 +111,8 @@
     grid-template-columns: 1fr 1fr 1fr;
   }
   /*join*/
-  .joinpage {
+  .joinpage,
+  .contactpage {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }

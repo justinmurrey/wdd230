@@ -34,9 +34,9 @@
                     <img src="images/chamberofcommercelogocopy2.webp" alt=" logo">
                 </picture>
                 <section class="headings">
-                    <h1>
+                    <h2>
                         Zanesville City
-                    </h1>
+                    </h2>
                     <q class="m">Chamber Of Commerce </q>
                 </section>
             </div>
@@ -51,32 +51,63 @@
         <nav>
             <button id="hamburgerBtn"><span>&#9776;</span><span>X</span></button>
             <ul id="primaryNav">
-                <li><a href="#">Home</a></li>
+                <li><a href="index.html">Home</a></li>
                 <li><a href="discover.html">Discover</a></li>
-                <li><a href="join.html">Join</a></li>
-                <li class="active"><a href="directory.html">Directory</a></li>
-                <li><a href=" #">Contact</a></li>
+                <li class=" active"><a href="join.html">Join</a></li>
+                <li><a href="directory.html">Directory</a></li>
+                <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
     </div>
 
     <!--<date></date>-->
     <aside></aside>
+    <h1 class="text">
+        Welcome, Join Our Team
+    </h1>
+    <hr>
+    <main class="contactpage">
+        <h1>Course Proposal Application</h1>
 
-    <main class="directory">
-        <h1 class="text">
-            Welcome to contact page
-        </h1>
+        <form method="get" action="thanks.html">
 
+            <fieldset>
+                <legend>
+                    Applicant Information
+                </legend>
+                <label class="top">First Name*<input type="text" name="fname" required></label>
+
+                <label class="top">Last Name Initial*<input type="text" name="lname" required></label>
+
+                <label class="top">Phone<input type="tel" name="phone" placeholder="1234567890"></label>
+
+                <label class="top">email*<input type="email" name="email" placeholder="someonr@gmail.com"
+                        required></label>
+
+                <div>how do you want to be contacted</div>
+
+                <label class="sbs"><input type="radio" name="contacted" value="email">email</label>
+
+                <label class="sbs"><input type="radio" name="contacted" value="phone">Phone</label>
+
+                <label class="sbs"><input type="radio" name="contacted" value="both">Both</label>
+
+                <label class="top">Message</label>
+                <textarea name="message" class="top" cols="70" rows="10"></textarea>
+
+                <input type="submit" value="Join the team" class="submitBtn">
+            </fieldset>
+        </form>
     </main>
     <footer>
+        <p class="daysOfVisit"></p>
         <section class="wrapper">
             <div>
                 <img src="images/chamberofcommercelogo2.png" alt="logo">
 
-                <h2>
+                <h1>
                     Zanesville Chamber Of Commerce
-                </h2>
+                </h1>
                 <p>
                     205 North Fifth St,
                     Zanesville, OH 43701 USA
@@ -86,7 +117,7 @@
                 <p>info@zanesville.org</p>
                 <p>(740)-455-8282</p>
                 <a target="_blank" href="https://goo.gl/maps/D76KRYbXMq5vGmy19">
-                    <p>📍Location Map</p>
+                    <p>📍 Location Map</p>
                 </a>
             </div>
         </section>
@@ -94,9 +125,11 @@
         <p id="copyright">
             &copy; <span id="currentyear"></span> Zanesville City Chamber | Justin Murrey | wdd-230 Chamber |
             <span id="lastModified"></span>
-        </p>
+
     </footer>
-    <script src="js/weather.js"></script>
+    <script src="js/hiddentime.js"></script>
+    <script src="js/localStorage.js"></script>
+    <script src="js/script.js"></script>
     <script src="js/banner.js"></script>
     <script src="js/date.js"></script>
     <script src="js/currntyear.js"></script>
@@ -104,4 +137,4 @@
 
 </body>
 
-</html>`
+</html>
