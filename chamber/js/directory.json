@@ -4,84 +4,84 @@
       "name": "THE WILD'S",
       "address": "1234 wilds st",
       "phone": "123-123-456",
-      "website": "example.com",
+      "website": "wilds.com",
       "imageurl": "images/rhino-icon.png"
     },
     {
       "name": "TOM'S ICE CREAM BOWL",
       "address": "1234 ice cr",
       "phone": "365-489-965",
-      "website": "secondcompany.com",
+      "website": "toms.com",
       "imageurl": "images/dessert.png"
     },
     {
       "name": "ALAN COTTRILL SCULPTURE STUDIO",
       "address": "5678 Alens ln",
       "phone": "389874534",
-      "website": "third.com",
+      "website": "alan.com",
       "imageurl": "images/pascha_statue.png"
     },
     {
       "name": "PUTNUM HILL PARK",
       "address": "9011 HILL ST",
       "phone": "879768454",
-      "website": "fourth.com",
+      "website": "putnumhill.com",
       "imageurl": "images/park-icon.png"
     },
     {
       "name": "LORENA STERNWHEELER",
       "address": "3456 river rd",
       "phone": "455-635-486",
-      "website": "fifth.com",
+      "website": "lorena.com",
       "imageurl": "images/boat.png"
     },
     {
       "name": "KIDZVILLE",
       "address": "1234 kidz clr",
       "phone": "2132121121",
-      "website": "sixth.com",
+      "website": "kidz.com",
       "imageurl": "images/city_park.png"
     },
     {
       "name": "DILLON STATE PARK",
       "address": "123 dillon st",
       "phone": "465486746",
-      "website": "seventh.com",
+      "website": "dillon.com",
       "imageurl": "images/park2.png"
     },
     {
       "name": "Ohio University Zanesville",
       "address": "123 School ln",
       "phone": "456545645458",
-      "website": "eighth.com",
+      "website": "ouz.com",
       "imageurl": "images/school-cap.png "
     },
     {
       "name": "ZANES STATE",
       "address": "123 Zanes st",
       "phone": "872184564321",
-      "website": "nineth.com",
+      "website": "zanes.com",
       "imageurl": "images/school.png"
     },
     {
       "name": "HOT COCO CAFE",
       "address": "123 CAFE Rd",
       "phone": "1234564123",
-      "website": "tenth.com",
+      "website": "hotcoco.com",
       "imageurl": "images/hot-coco.png"
     },
     {
       "name": "CAFE CORNER",
-      "address": "eleventhFake123",
+      "address": "123 st",
       "phone": "1234567891",
-      "website": "eleventh.com",
+      "website": "cafe.com",
       "imageurl": "images/cafe-cup.png"
     },
     {
       "name": "CHINESES BOWL",
       "address": "5557 max ln",
       "phone": "741258963",
-      "website": "twelveth.com",
+      "website": "chinese.com",
       "imageurl": "images/chinese.png"
     }
   ]

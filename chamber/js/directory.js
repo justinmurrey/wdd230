@@ -82,7 +82,7 @@ buttons.forEach(function (button) {
       document.querySelector("." + viewList).style.display = "block";
     } else {
       document.querySelector("." + viewList).style.cssText =
-        "display: grid; grid-template-columns: repeat(3, 1fr)";
+        "display: grid; grid-template-columns: repeat(3,1fr)";
     }
   });
 });

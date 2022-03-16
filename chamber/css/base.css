@@ -647,7 +647,7 @@ img {
 
 .links ul li:hover,
 .links ul li:active {
-  color: wheat;
+  color: white;
 }
 
 .view_item img {
@@ -655,6 +655,7 @@ img {
 }
 
 .view_main {
+  margin: 5px;
   padding: 15px;
 }
 
@@ -687,7 +688,7 @@ img {
 .view_item .title-cafe,
 .view_item .title-chinese {
   font-weight: 600;
-  border-bottom: 2px solid #333;
+  border-bottom: 1px solid black;
 }
 
 .view_item .content {
@@ -696,14 +697,16 @@ img {
   line-height: 22px;
   font-weight: 200;
 }
-
-.directory section {
+.directory .grid-view section {
   margin: 0;
   justify-items: center;
   text-align: center;
-  margin: 1rem;
+  margin: 5px;
   border-radius: 1rem;
-  border: 2px solid black;
-  width: fit-content;
+  border: 1px solid black;
 }
-/*contact*/
+.list-view section {
+  display: flex;
+  justify-content: space-around;
+  border-bottom: 1px solid black;
+}

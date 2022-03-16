@@ -42,7 +42,7 @@
     display: grid;
 
     /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
-    gap: 0px;
+    gap: 0;
     /*height: calc(100vh - 80px);*/
   }
   .hero {
@@ -112,7 +112,7 @@
   }
   /*join*/
   .joinpage,
-  .contactpage {
+  e {
     display: grid;
     grid-template-columns: 1fr 1fr;
   }
@@ -133,5 +133,31 @@
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     margin: 0 auto;
+  }
+  .contactpage {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+  }
+  input.submitbtn {
+    border: none;
+    background-color: #396e92;
+    color: #fff;
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin: 10px;
+    width: 90%;
+  }
+  .directory .grid-view section {
+    margin: 0;
+    justify-items: center;
+    text-align: center;
+    margin: 1rem;
+    border-radius: 1rem;
+    border: 1px solid black;
+  }
+  .directory .list-view {
+    display: flex;
+    justify-content: space-evenly;
+    border-bottom: 1px solid black;
   }
 }
