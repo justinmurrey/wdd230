@@ -12,7 +12,7 @@ function ChoiceRan(chs) {
 fetch(requestURL)
   .then((response) => response.json())
   .then((jsObject) => {
-    const spotlights = jsObject["spotlights"];
+    const spotlights = jsObject["companies"];
     for (let i = 0; i < 1; i++) {
       let choices = ChoiceRan(positions);
       let title = document.createElement("h2");

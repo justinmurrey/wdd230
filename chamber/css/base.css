@@ -49,7 +49,7 @@ body {
   font-family: Arial, Helvetica, sans-serif;
 }
 footer {
-  background-color: gray;
+  background-color: #396e92;
   text-align: center;
 }
 .footerheader {
@@ -86,7 +86,7 @@ h6 {
 }
 
 p {
-  color: black;
+  color: white;
   font-size: 16px;
   font-family: "Luxurious Roman", cursive;
 }
@@ -296,7 +296,6 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /*height: 320px;*/
   background: #000;
   background: url(../images/babyrhino.jpg);
   background-size: cover;
@@ -311,7 +310,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /* height: 320px;*/
+
   background: #000;
   background: url(../images/ice-cream.jpg);
   background-size: cover;
@@ -326,7 +325,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /*height: 320px;*/
+
   background: #000;
   background: url(../images/george-washington.jpg);
   background-size: cover;
@@ -341,7 +340,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /*height: 320px;*/
+
   background: #000;
   background: url(../images/putnam-hill-park.jpg);
   background-size: cover;
@@ -356,7 +355,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /* height: 320px;*/
+
   background: #000;
   background: url(../images/lorea.jpg);
   background-size: cover;
@@ -371,7 +370,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /* height: 320px;*/
+
   background: #000;
   background: url(../images/kidzville.jpg);
   background-size: cover;
@@ -401,7 +400,7 @@ main picture.hero {
   position: relative;
   display: block;
   width: 320px;
-  /* height: 320px;*/
+
   background: #000;
   background: url(../images/zsc.jpg);
   background-size: cover;
@@ -604,11 +603,11 @@ img {
 #cards .item {
   display: flex;
   padding: 10px;
-  border: 1px solid #ddd;
+  border: 1px solid white;
   justify-content: space-around;
 }
 #cards .item:nth-child(odd) {
-  background: #f7f7f7;
+  background: white;
 }
 
 #cards.grid {
@@ -708,4 +707,6 @@ img {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid black;
+}
+.contactinfo {
 }
