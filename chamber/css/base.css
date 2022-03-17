@@ -52,6 +52,9 @@ footer {
   background-color: gray;
   text-align: center;
 }
+.footerheader {
+  color: #000;
+}
 #lastModified {
   color: white;
 }
@@ -83,7 +86,7 @@ h6 {
 }
 
 p {
-  color: #fff;
+  color: black;
   font-size: 16px;
   font-family: "Luxurious Roman", cursive;
 }
@@ -176,7 +179,6 @@ nav ul.open {
 }
 
 aside {
-  /* margin: 0.5rem;*/
   border-top: 1px solid white;
   padding: 0.75rem;
   background-color: #396e92;
@@ -198,10 +200,6 @@ nav footer {
 .mainpage {
   display: grid;
   gap: 4px;
-  /* grid-template-columns: repeat(4, 1fr);
-  grid-template-rows: repeat(6, 1fr);
-  grid-column-gap: 2px;
-  grid-row-gap: 2px;*/
 }
 
 .spot3,
@@ -217,7 +215,7 @@ nav footer {
 .spot1,
 .spot2,
 .spot3 {
-  border: 2px solid #333;
+  border: 2px solid black;
   text-align: center;
   background-color: lightgray;
 }
@@ -656,7 +654,7 @@ img {
 
 .view_main {
   margin: 5px;
-  padding: 15px;
+  padding: 10px;
 }
 
 .list-view,
@@ -702,6 +700,7 @@ img {
   justify-items: center;
   text-align: center;
   margin: 5px;
+  padding: 4px;
   border-radius: 1rem;
   border: 1px solid black;
 }

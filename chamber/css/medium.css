@@ -148,13 +148,11 @@
     width: 90%;
   }
   .directory .grid-view section {
-    margin: 0;
     justify-items: center;
     text-align: center;
-    margin: 1rem;
-    border-radius: 1rem;
-    border: 1px solid black;
+    margin: 5px;
   }
+
   .directory .list-view {
     display: flex;
     justify-content: space-evenly;
