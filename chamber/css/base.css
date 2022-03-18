@@ -202,7 +202,6 @@ nav footer {
   gap: 4px;
 }
 
-.spot3,
 .join {
   display: none;
 }
@@ -291,6 +290,7 @@ main picture.hero {
 .discover {
   display: unset;
 }
+
 /*container 1*/
 .container1 {
   position: relative;
@@ -478,7 +478,6 @@ form textarea.top {
   padding: 0.75rem;
   color: #333;
   width: 100%;
-  /*max-width: 20rem;*/
   background-color: rgba(0, 0, 0, 0.1);
 }
 
@@ -707,6 +706,4 @@ img {
   display: flex;
   justify-content: space-around;
   border-bottom: 1px solid black;
-}
-.contactinfo {
 }

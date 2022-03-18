@@ -15,8 +15,8 @@ fetch(requestURL)
     const spotlights = jsObject["companies"];
     for (let i = 0; i < 1; i++) {
       let choices = ChoiceRan(positions);
-      let title = document.createElement("h2");
-      let image = document.createElement("img");
+      let title = document.createElement("name");
+      let image = document.createElement("imageu");
       let description = document.createElement("p");
 
       title.textContent = spotlights[choices].name;
