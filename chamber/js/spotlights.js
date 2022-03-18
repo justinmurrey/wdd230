@@ -16,7 +16,7 @@ fetch(requestURL)
     for (let i = 0; i < 1; i++) {
       let choices = ChoiceRan(positions);
       let title = document.createElement("name");
-      let image = document.createElement("imageu");
+      let image = document.createElement("imageurl");
       let description = document.createElement("p");
 
       title.textContent = spotlights[choices].name;

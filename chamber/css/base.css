@@ -707,3 +707,6 @@ img {
   justify-content: space-around;
   border-bottom: 1px solid black;
 }
+.contactinfo {
+  justify-content: center;
+}
