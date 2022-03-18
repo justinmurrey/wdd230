@@ -5,7 +5,7 @@
   }
 
   nav {
-    top: 10px;
+    top: 18px;
   }
 
   nav ul li a {
@@ -21,9 +21,6 @@
   .actionbtn {
     right: 4vw;
     left: unset;
-    /*left: 500px;*/
-    /*background-color: #396e92;
-    color: #fff;*/
   }
 
   .wrapper {
@@ -41,9 +38,7 @@
   main {
     display: grid;
 
-    /* grid-template-columns: 1fr 1fr 1fr 1fr;*/
     gap: 0;
-    /*height: calc(100vh - 80px);*/
   }
   .hero {
     background-color: lightgray;

@@ -16,7 +16,7 @@ fetch(requestURL)
     for (let i = 0; i < 1; i++) {
       let choices = ChoiceRan(positions);
       let title = document.createElement("name");
-      let image = document.createElement("imageurl");
+      let image = document.createElement("image");
       let description = document.createElement("p");
 
       title.textContent = spotlights[choices].name;
@@ -25,8 +25,8 @@ fetch(requestURL)
       image.setAttribute("src", spotlights[choices].image);
       image.setAttribute("alt", spotlights[choices].name);
 
-      document.getElementById("div").appendChild(title);
-      document.getElementById("div").appendChild(image);
-      document.getElementById("div").appendChild(description);
+      document.getElementById("spot").appendChild(title);
+      document.getElementById("spot").appendChild(image);
+      document.getElementById("spot").appendChild(description);
     }
   });
