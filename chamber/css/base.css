@@ -2,12 +2,10 @@
 header {
   background-color: #fff;
   padding: 5px 0;
-  /*display: flex;*/
+
   align-items: center;
   justify-content: space-between;
-  /*max-width: 900px;*/
   margin: 0 auto;
-  /*border-bottom: 1px solid #bbb;*/
 }
 
 .logo {
@@ -54,9 +52,6 @@ footer {
 }
 .footerheader {
   color: #000;
-}
-#lastModified {
-  color: white;
 }
 header,
 footer {
@@ -256,7 +251,7 @@ main picture.hero {
   text-decoration: none;
   position: absolute;
   bottom: 30px;
-  left: 200px;
+  left: 150px;
   background-color: #396e92;
   border-radius: 10px;
   color: #fff;

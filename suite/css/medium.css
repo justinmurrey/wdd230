@@ -1,0 +1,15 @@
+@media only screen and (min-width: 37em) {
+  /*navbar hamburger btn*/
+  nav button {
+    display: none;
+  }
+
+  nav ul#primaryNav {
+    display: flex;
+    border-left: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  nav ul li a {
+    border: none;
+    border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+}
