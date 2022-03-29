@@ -1,5 +1,11 @@
 @media only screen and (min-width: 37em) {
+  /*phone and baseline*/
+  .homepage {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+  }
   /*navbar hamburger btn*/
+
   nav button {
     display: none;
   }
@@ -11,5 +17,77 @@
   nav ul li a {
     border: none;
     border-right: 1px solid rgba(0, 0, 0, 0.3);
+  }
+  /*main*/
+  .quickmenu {
+    display: block;
+  }
+  .media {
+    display: block;
+  }
+  .hotelservices,
+  .specializedservices {
+    text-align: center;
+  }
+  /*footer*/
+  footer,
+  header {
+    grid-template-columns: repeat(3, 1fr);
+  }
+  .media2 {
+    display: none;
+  }
+  form fieldset {
+    margin: 1rem 0;
+    border: 1px solid var(--secondary);
+    border-radius: 10px;
+    padding: 0.5rem;
+  }
+
+  form legend {
+    color: var(--secondary);
+    margin: 0 1rem;
+    padding: 0 0.5rem;
+  }
+
+  form label.top,
+  form div {
+    display: block;
+    padding-top: 1rem;
+    color: var(--secondary);
+    font-size: 0.8rem;
+  }
+
+  form label.top input,
+  form textarea.top {
+    display: block;
+    font-size: 1rem;
+    border: solid 1px var(--secondary);
+    border-radius: 4px;
+    padding: 0.75rem;
+    color: var(--third);
+    width: 100%;
+    /*background-color: rgba(255, 255, 255, 0.1);*/
+  }
+
+  form input.submitBtn {
+    border: none;
+    background-color: #ebe7db;
+    color: var(--primary);
+    border-radius: 1rem;
+    padding: 0.75rem 1.5rem;
+    margin-top: 5px;
+    width: 100%;
+  }
+
+  form label.top input:required {
+    border-left: #999 solid 6px;
+  }
+  form label.top input:required:valid {
+    border-left: green solid 6px;
+  }
+  .email {
+    margin-right: 10px;
+    display: block;
   }
 }

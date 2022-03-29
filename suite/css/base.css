@@ -55,6 +55,9 @@ main {
 footer {
   text-align: center;
 }
+body {
+  background-color: var(--secondary);
+}
 /*navbar hamburger btn*/
 nav {
   background-color: var(--primary);
@@ -136,17 +139,36 @@ nav ul.open {
 .contactbtn {
   padding-top: 5px;
   margin: 5px;
-  list-style: none;
-  text-decoration: none;
   position: absolute;
-  top: 255px;
-  left: 30vw;
+  bottom: 800px;
+  left: 5vw;
   background-color: var(--primary);
   border-radius: 5px;
   width: 100px;
   color: var(--secondary);
   font-size: 10px;
   opacity: 80%;
+}
+.reservationimg {
+  width: 100%;
+  padding: 5px;
+  border-radius: 10px;
+}
+.reservationbtn {
+  margin-left: 15px;
+  color: var(--secondary);
+  background-color: var(--primary);
+  padding: 5px;
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+}
+.servicesheader {
+  text-align: center;
+}
+.hotel {
+  color: var(--primary);
+  padding: 5px;
 }
 
 /* thankyou */
@@ -176,6 +198,7 @@ nav ul.open {
 }
 .quickmenu {
   display: none;
+  margin: 10px;
 }
 ul li a {
   align-items: center;
@@ -184,4 +207,8 @@ ul li a {
 }
 ul {
   list-style: none;
+}
+.email {
+  display: none;
+  padding: 10;
 }
