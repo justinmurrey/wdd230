@@ -29,6 +29,11 @@
   .specializedservices {
     text-align: center;
   }
+  .reservationbtn {
+    position: absolute;
+    bottom: 50px;
+    left: 50px;
+  }
   /*footer*/
   footer,
   header {
@@ -67,7 +72,6 @@
     padding: 0.75rem;
     color: var(--third);
     width: 100%;
-    /*background-color: rgba(255, 255, 255, 0.1);*/
   }
 
   form input.submitBtn {

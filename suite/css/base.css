@@ -126,6 +126,8 @@ nav ul.open {
   width: 80px;
   height: auto;
 }
+/*moldal */
+
 /*main body*/
 #heroimg {
   padding: 5px;
@@ -136,25 +138,13 @@ nav ul.open {
   position: relative;
 }
 
-.contactbtn {
-  padding-top: 5px;
-  margin: 5px;
-  position: absolute;
-  bottom: 800px;
-  left: 5vw;
-  background-color: var(--primary);
-  border-radius: 5px;
-  width: 100px;
-  color: var(--secondary);
-  font-size: 10px;
-  opacity: 80%;
-}
 .reservationimg {
   width: 100%;
   padding: 5px;
   border-radius: 10px;
 }
 .reservationbtn {
+  justify-content: center;
   margin-left: 15px;
   color: var(--secondary);
   background-color: var(--primary);
@@ -171,6 +161,10 @@ nav ul.open {
   padding: 5px;
 }
 
+.weatherinfo {
+  color: var(--primary);
+  display: unset;
+}
 /* thankyou */
 #checkmark {
   justify-self: center;
@@ -211,4 +205,20 @@ ul {
 .email {
   display: none;
   padding: 10;
+}
+.flex {
+  color: var(--secondary);
+  display: flex;
+  flex-wrap: wrap;
+  margin: 25px auto;
+  max-width: 700px;
+  border-right: 1px solid var(--third);
+}
+
+.forecastdays {
+  flex: 1 1 auto;
+  border-bottom: 1px solid var(--third);
+  border-left: 1px solid var(--third);
+  text-align: center;
+  background-color: var(--primary);
 }

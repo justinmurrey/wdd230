@@ -23,13 +23,25 @@
                 <li><a href="#">Services</a></li>
                 <li><a href="#">Contact Us</a></li>
             </ul>
+
+            </div>
+            </div>
+
+
+
+            <a href="https://abubakersaeed.netlify.app/designs/d7-modal" class="abs-site-link" rel="nofollow noreferrer"
+                target="_blank">abs/designs/d7-modal</a>
         </nav>
+
+
+
         <section class="logo">
             <img src="image/temple-innn-icon.png" alt="">
         </section>
         <section class="media">
             <a target="_blank" href="https://www.facebook.com"><img src="image/facebook.png" alt="facebook" /></a>
             <a target="_blank" href="https://www.twitter.com"><img src="image/twitter.png" alt=" twitter" /></a>
+
         </section>
 
     </header>
@@ -41,27 +53,64 @@
         <picture>
             <img id="heroimg" src="image/MORONI2.jpg" alt="a picture of MORONI">
         </picture>
-        <button type="submit" class="contactbtn">Contact Us</button>
+        <button type="submit" class="reservationbtn">Book a Reservationimg</button>
+
     </section>
     <main class="homepage">
         <section>
             <picture>
                 <img src="image/hotel.jpg" class="reservationimg" alt="a ticket saying reservation">
             </picture>
-            <button type="submit" class="reservationbtn">Book a Reservationimg</button>
+
         </section>
         <p class="hotel">
             You like to get a married in temple and have a place for reception that can be easily customized with a
             simple catering menu. A playroom and low-cost, short-term babysitting services thi hotel has it
         </p>
 
-    </main>
-    <section class="temple">
-        <picture>
-            <img src="image/mesatemple.jpg" class="reservationimg" alt="a ticket saying reservation">
-        </picture>
-    </section>
 
+        <section class="temple">
+            <picture>
+                <img src="image/mesatemple.jpg" class="reservationimg" alt="a ticket saying reservation">
+            </picture>
+        </section>
+        <div>
+            <h2 class="weekforecast">3 DAY FORCAST</h2>
+            <div class="flex">
+                <div class="forecastdays">
+                    <span class="weekday" id="weekday1"></span>
+                    <img src="" alt="" id="icon1"><br>
+                    <span class="data" id="ftemp1">°F</span>
+                </div>
+                <div class="forecastdays">
+                    <span class="weekday" id="weekday2"></span>
+                    <img src="" alt="" id="icon2"><br>
+                    <span class="data" id="ftemp2">°F</span>
+                </div>
+                <div class="forecastdays">
+                    <span class="weekday" id="weekday3"></span>
+                    <img src="" alt="" id="icon3"><br>
+                    <span class="data" id="ftemp3">°F</span>
+                </div>
+            </div>
+        </div>
+        <section class="weather">
+            <h2 class="text name ">
+            </h2>
+            <p class="ctemp text weatherinfo"> <span id="current-temp"></span> &deg;F
+            </p>
+            <p class="text speed  weatherinfo" id="speed"></p>
+
+            <p class="text chill  weatherinfo" id="chill"></p>
+            <p class="text humiditydiv  weatherinfo" id="humidity"></p>
+            <figure><img src="" alt="" id="weathericon" />
+                <figcaption></figcaption>
+                <img src="" alt="" id="icon-src">
+            </figure>
+        </section>
+
+
+    </main>
     <h2 class="servicesheader">
         Top 3 Services
     </h2>
@@ -147,6 +196,7 @@
                     <input type="submit" value="Contact Us" class="submitBtn">
                 </fieldset>
         </section>
+
     </footer>
     <section class="modified">
         <p>
@@ -154,6 +204,7 @@
         </p>
         <p><span id="lastModified"></span></p>
     </section>
+    <script src="js/weather.js"></script>
     <script src="js/currntyear.js"></script>
     <script src="js/lastModified.js"></script>
     <script src="js/hamburgerbtn.js"></script>
