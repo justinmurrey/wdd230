@@ -222,11 +222,10 @@ ul {
   text-align: center;
   background-color: var(--primary);
 }
-/*temples*/
+/*temples page*/
 #temples {
   display: grid;
   font-weight: 1rem;
-  grid-template-columns: repeat(3, 1fr);
   margin: 1rem;
   gap: 2rem;
 }
@@ -240,4 +239,8 @@ ul {
   padding: 0.3rem;
   text-align: center;
   background-color: #fbd786;
+}
+/*Reservation */
+.reservation{
+  display: grid;
 }

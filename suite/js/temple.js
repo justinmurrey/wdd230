@@ -69,7 +69,7 @@ const cput = (array) => {
   }, this);
 };
 
-const url = "https://justinmurrey.github.io/wdd230/suite/js/temples.jsom";
+const url = "https://justinmurrey.github.io/wdd230/suite/js/temples.json";
 fetch(url)
   .then((response) => response.json())
 

@@ -34,6 +34,13 @@
     bottom: 50px;
     left: 50px;
   }
+  #temples {
+    grid-template-columns: 1fr 1fr;
+  }
+/*Reservation page*/
+.reservation{
+  grid-template-columns: repeat(2, 1fr);
+}  
   /*footer*/
   footer,
   header {
@@ -42,37 +49,7 @@
   .media2 {
     display: none;
   }
-  form fieldset {
-    margin: 1rem 0;
-    border: 1px solid var(--secondary);
-    border-radius: 10px;
-    padding: 0.5rem;
-  }
-
-  form legend {
-    color: var(--secondary);
-    margin: 0 1rem;
-    padding: 0 0.5rem;
-  }
-
-  form label.top,
-  form div {
-    display: block;
-    padding-top: 1rem;
-    color: var(--secondary);
-    font-size: 0.8rem;
-  }
-
-  form label.top input,
-  form textarea.top {
-    display: block;
-    font-size: 1rem;
-    border: solid 1px var(--secondary);
-    border-radius: 4px;
-    padding: 0.75rem;
-    color: var(--third);
-    width: 100%;
-  }
+  
 
   form input.submitBtn {
     border: none;
@@ -84,12 +61,6 @@
     width: 100%;
   }
 
-  form label.top input:required {
-    border-left: #999 solid 6px;
-  }
-  form label.top input:required:valid {
-    border-left: green solid 6px;
-  }
   .email {
     margin-right: 10px;
     display: block;
