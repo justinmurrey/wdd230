@@ -1,8 +1,5 @@
 const requestURL =
-  "https://justinmurrey.github.io/wdd230/chamber/js/directory.json";
-
-const listview = document.querySelector(".list-view");
-const gridview = document.querySelector(".grid-view");
+  "https://justinmurrey.github.io/wdd230/suite/js/temples.json";
 
 fetch(requestURL)
   .then(function (response) {
@@ -10,53 +7,53 @@ fetch(requestURL)
   })
   .then(function (jsonObject) {
     console.table(jsonObject); // temporary checking for valid response and data parsing
-    const companies = jsonObject["companies"];
+    const temples = jsonObject["temples"];
 
-    companies.forEach(viewInList);
-    companies.forEach(viewInGrid);
+    temples.forEach(viewInList);
+    temples.forEach(viewInGrid);
   });
 
-function viewInList(company) {
+function viewInList(temples) {
   let card = document.createElement("section");
   let title = document.createElement("h2");
-  let address = document.createElement("p");
-  let phone = document.createElement("p");
-  let website = document.createElement("p");
+  let locations = document.createElement("p");
+  let dedicated = document.createElement("p");
+  let imageUrl = document.createElement("p");
 
-  title.textContent = company.name;
-  address.textContent = company.address;
-  phone.textContent = company.phone;
-  website.textContent = company.website;
+  title.textContent = temples.templeName;
+  locations.textContent = temples.locations;
+  dedicated.textContent = temples.dedicated;
+  imageUrl.textContent = temples.imageUrl;
 
   card.appendChild(title);
-  card.appendChild(address);
-  card.appendChild(phone);
-  card.appendChild(website);
+  card.appendChild(locations);
+  card.appendChild(dedicated);
+  card.appendChild(imageUrl);
 
   title.setAttribute("class", "title-dir");
   listview.appendChild(card);
 }
 
-function viewInGrid(company) {
+function viewInGrid(temples) {
   let card = document.createElement("section");
   let title = document.createElement("h2");
-  let address = document.createElement("p");
-  let phone = document.createElement("p");
-  let website = document.createElement("p");
+  let locations = document.createElement("p");
+  let dedicated = document.createElement("p");
+  let imageUrl = document.createElement("p");
   let image = document.createElement("img");
 
-  title.textContent = company.name;
-  address.textContent = company.address;
-  phone.textContent = company.phone;
-  website.textContent = company.website;
+  title.textContent = temples.templeName;
+  locations.textContent = temples.locations;
+  dedicated.textContent = temples.dedicated;
+  imageUrl.textContent = temples.imageUrl;
 
-  image.setAttribute("src", company.imageurl);
+  image.setAttribute("src", temples.imageurl);
   title.setAttribute("class", "title-dir");
 
   card.appendChild(title);
-  card.appendChild(address);
-  card.appendChild(phone);
-  card.appendChild(website);
+  card.appendChild(locations);
+  card.appendChild(dedicated);
+  card.appendChild(imageUrl);
   card.appendChild(image);
 
   gridview.appendChild(card);

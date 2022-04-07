@@ -6,7 +6,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta name="description" content="this page will contain a site for a inn and suite that will placed near temples">
-    <title>Temple Inn and Suites</title>
+    <title>reservations</title>
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
@@ -20,8 +20,8 @@
                 <li><a href="index.html">Home</a></li>
                 <li><a href="temples.html">Temples</a></li>
                 <li class="active"><a href="reservation.html">Reservation</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
         <section class="logo">
@@ -34,16 +34,64 @@
     </header>
 
     <h1>
-        Book your Reservation now
+        Book your Reservation Now
     </h1>
     <section>
         <main class="reservation">
-            <h2>
-                test
-            </h2>
-            <h2>
-                test2
-            </h2>
+            <section class="reservation-form">
+                <form method="get" action="thankyou.html">
+                    <fieldset>
+                        <legend>Reservations</legend>
+                        <label class="top">First Name*<input type="text" name="fname" required></label>
+
+                        <label class="top">Last Name*<input type="text" name="lname" required></label>
+
+                        <label class="top">Phone<input type="tel" name="phone" placeholder="(123)456-7890"></label>
+
+                        <label class="top">email*<input type="email" name="email" placeholder="someonr@gmail.com"
+                                required></label>
+                        <div>Temples</div>
+                        <label class="sbs"><input type="radio" name="temples" value="monticello">Monticello Utah
+                            Temple</label>
+
+                        <label class="sbs"><input type="radio" name="temples" value="centertemple">Provo City Center
+                            Temple</label>
+
+                        <label class="sbs"><input type="radio" name="temples" value="utahtemple">Provo Utah
+                            Temple</label>
+
+                        <label class="sbs"><input type="radio" name="temples" value="slc">Salt Lake Temple</label>
+
+                        <div>Specialized Services</div>
+                        <label class="sbs"><input type="checkbox" name="rooms" value="yes">Free access to changing
+                            rooms and bathroom facilities</label>
+
+                        <label class="sbs"><input type="checkbox" name="babysitting" value="yes">A playroom and
+                            low-cost, short-term babysitting services </label>
+
+                        <label class="sbs"><input type="checkbox" name="long-term" value="yes">Long-term stay
+                            accommodations in kitchenette suites </label>
+
+                        <label class="sbs"><input type="checkbox" name="temple-history" value="yes">Temple history
+                            themed reception and sitting area</label>
+
+                        <label class="sbs"><input type="checkbox" name="wedding" value="yes">A wedding reception
+                            hall</label>
+
+                        <label class="sbs"><input type="checkbox" name="family-search" value="yes">A family search
+                            center</label>
+                        <label class="top">Date of Arrival <input type="date" name="completionDate"></label>
+                        <label class="top">Specialized Needs</label>
+                        <textarea name=" description " class="top" cols="50" rows="10"></textarea>
+                        <input type="submit" value="Join the team" class="submitBtn">
+                    </fieldset>
+                </form>
+            </section>
+            <section class="reservationtemples">
+                <img src="image/provo_temple_lds.jpg" alt=" a provo temple">
+                <img src="image/provo_city_center_temple.jpg" alt="provo_city_center_temple">
+                <img src="image/salt_lake_temple_lds.jpeg" alt="salt_lake_temple">
+            </section>
         </main>
 
         <footer>
@@ -70,13 +118,13 @@
                 <h2 class="footerinfo">Quick Menu links</h2>
                 <ul>
                     <li>
-                        <a href="#">Temples</a>
+                        <a href="temples.html">Temples</a>
                     </li>
                     <li>
-                        <a href="#">Reservation </a>
+                        <a href="reservation.html">Reservation </a>
                     </li>
                     <li>
-                        <a href="#">Services</a>
+                        <a href="services.html">Services</a>
                     </li>
                 </ul>
             </div>
@@ -85,11 +133,9 @@
                 <a target="_blank" href="https://www.twitter.com"><img src="image/twitter.png" alt=" twitter" /></a>
             </section>
             <section class="email">
-                <form method="get" action="thankyou.html">
-                    <fieldset>
-                        <legend>Contact Us</legend>
-                        <input type="submit" value="Contact Us" class="submitBtn">
-                    </fieldset>
+
+                <a href="contact.html"> <input type="submit" value="Contact Us" class="contactBtn"></a>
+
             </section>
 
         </footer>

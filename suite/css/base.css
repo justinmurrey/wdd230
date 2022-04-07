@@ -1,4 +1,3 @@
-/* phone or baseline views*/
 * {
   margin: 0;
   padding: 0;
@@ -17,12 +16,11 @@ h3,
 h4,
 h5,
 h6 {
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: "Vazirmatn", sans-serif;
   color: var(--primary);
 }
 p {
   color: var(--secondary);
-  text-align: center;
 }
 header {
   align-items: center;
@@ -32,6 +30,10 @@ header {
   grid-template-columns: repeat(2, 1fr);
   border-bottom: 3px solid black;
   background-color: var(--primary);
+}
+
+body {
+  background-color: var(--secondary);
 }
 footer {
   display: grid;
@@ -55,10 +57,7 @@ main {
 footer {
   text-align: center;
 }
-body {
-  background-color: var(--secondary);
-}
-/*navbar hamburger btn*/
+
 nav {
   background-color: var(--primary);
   z-index: 2;
@@ -126,19 +125,51 @@ nav ul.open {
   width: 80px;
   height: auto;
 }
-/*moldal */
 
-/*main body*/
+.modal-containe {
+  position: fixed;
+  padding: 10px;
+  top: 100px;
+  left: 0;
+  opacity: 0;
+
+  max-width: 100vw;
+  transition: opacity 0.3s ease;
+}
+.modal {
+  background-color: var(--secondary);
+  padding: 20px 30px;
+  border-radius: 10px;
+  border: 1px solid var(--third);
+}
+
+.weatherbtn {
+  background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 10px;
+  padding: 5px 15px;
+}
+.modal-containe.show {
+  opacity: 1;
+}
+
+.weather {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+}
+.forecastcs {
+  color: var(--primary);
+  display: flex;
+}
+
 #heroimg {
   padding: 5px;
   border-radius: 10px;
   width: 100%;
 }
-#heroimg {
-  position: relative;
-}
 
-.reservationimg {
+.reservationimg,
+.templeimg {
   width: 100%;
   padding: 5px;
   border-radius: 10px;
@@ -148,24 +179,31 @@ nav ul.open {
   margin-left: 15px;
   color: var(--secondary);
   background-color: var(--primary);
-  padding: 5px;
+  padding: 5px 15px;
   align-items: center;
   justify-content: center;
   border-radius: 10px;
 }
-.servicesheader {
+.servicesheader,
+.templeheader {
   text-align: center;
 }
 .hotel {
+  font-size: 1rem;
+  font: 1em sans-serif;
+}
+.hotel,
+.temple-p,
+.about,
+.job-title {
   color: var(--primary);
   padding: 5px;
 }
 
 .weatherinfo {
   color: var(--primary);
-  display: unset;
 }
-/* thankyou */
+
 #checkmark {
   justify-self: center;
 }
@@ -179,7 +217,7 @@ nav ul.open {
   text-align: center;
   font-size: 30px;
 }
-/*footer */
+
 .media2 img {
   width: 80px;
 }
@@ -204,43 +242,160 @@ ul {
 }
 .email {
   display: none;
-  padding: 10;
-}
-.flex {
-  color: var(--secondary);
-  display: flex;
-  flex-wrap: wrap;
-  margin: 15px auto;
-  max-width: 700px;
-  border-right: 1px solid var(--third);
+  padding: 10px;
 }
 
-.forecastdays {
-  flex: 1 1 auto;
-  border-bottom: 1px solid var(--third);
-  border-left: 1px solid var(--third);
-  text-align: center;
+.cards {
+  display: grid;
+  grid-template-columns: 1fr;
+  grid-column-gap: 2px;
+  grid-row-gap: 2px;
+  background-color: #396e92;
+  color: #fff;
+  justify-items: center;
+}
+
+.reservation {
+  display: grid;
+}
+form fieldset {
+  margin: 2rem 0;
+  border: 1px solid var(--primary);
+  border-radius: 10px;
+  padding: 0rem 2%;
+}
+form legend {
+  color: var(--primary);
+  margin: 0 1rem;
+  padding: 0 0.5rem;
+}
+
+form label.top,
+form div {
+  display: block;
+  padding-top: 1rem;
+}
+
+form label.top input,
+form label.top select {
+  --webkit-appearance: none;
+  display: block;
+  font-size: 1rem;
+  border-radius: 4px;
+  padding: 0.75rem;
+  color: black;
+  width: 100%;
+}
+form label.sbs {
+  display: block;
+  padding: 0.75rem;
+  color: black;
+}
+
+form input.submitBtn {
+  border: none;
   background-color: var(--primary);
+  color: var(--secondary);
+  border-radius: 1rem;
+  margin: 0 02rem 2%;
+  width: 97%;
+  max-width: 20rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 5px;
 }
-/*temples page*/
-#temples {
-  display: grid;
-  font-weight: 1rem;
-  margin: 1rem;
-  gap: 2rem;
+label.sbs {
+  padding: 5px;
+}
+form label.top input:required {
+  border-left: red solid 6px;
 }
 
-.temple-image {
-  max-width: 25rem;
-  box-shadow: 0px 0px 13px 10px rgba(0, 0, 0, 0.25);
+form label.top input:required:valid {
+  border-left: green solid 6px;
 }
-#temples article {
-  box-shadow: 0px -3px 13px 0px rgba(0, 0, 0, 0.75);
-  padding: 0.3rem;
+.reservationtemples {
+  padding: 10px;
+}
+.reservation {
+  padding: 15px;
+}
+section.contactcard {
+  padding: 2rem;
+  background-color: var(--secondary);
+}
+.heading {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 2.5rem;
+  letter-spacing: 3px;
+  margin-right: -3px;
+  margin-bottom: 5rem;
   text-align: center;
-  background-color: #fbd786;
+  position: relative;
 }
-/*Reservation */
-.reservation{
-  display: grid;
+
+.heading::after {
+  content: "";
+  width: 10rem;
+  height: 0.8rem;
+  background-color: var(--primary);
+  position: absolute;
+  bottom: -2rem;
+  left: 45%;
+  border-radius: 2rem;
+}
+.card-wrapper {
+  display: flex;
+  align-items: center;
+  align-content: center;
+  flex-direction: column;
+}
+
+.card {
+  width: 32rem;
+  border-color: white;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  margin: 2rem 0;
+  box-shadow: 0.5rem 0.5rem 0.3rem rgba(0, 0, 0, 0.2);
+}
+.card .card-img {
+  width: 100%;
+  height: 26rem;
+  object-fit: cover;
+}
+.profile-img {
+  width: 15rem;
+  height: 15rem;
+  object-fit: cover;
+  border-radius: 50%;
+  margin-top: -5rem;
+  border: 1px solid var(--third);
+}
+.card h2 {
+  font-size: 2.5rem;
+  margin: 1.5rem 0;
+}
+.job-title {
+  font-size: 1.5rem;
+  font-weight: 300;
+}
+.about {
+  font-size: 1.5rem;
+  margin: 1.5rem 0;
+  font-style: italic;
+  text-align: center;
+}
+.contactBtn {
+  background-color: var(--secondary);
+  color: var(--primary);
+  border-radius: 1rem;
+  margin: 0 02rem 2%;
+  width: 97%;
+  max-width: 20rem;
+  padding: 0.75rem 1.5rem;
+  margin-top: 5px;
+  margin-right: 5px;
 }

@@ -10,6 +10,11 @@
     <link rel="stylesheet" href="css/base.css">
     <link rel="stylesheet" href="css/medium.css">
     <link rel="stylesheet" href="css/large.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Lora:ital@1&family=Montserrat:wght@400;700&family=Playfair+Display:wght@500&family=Vazirmatn:wght@500&display=swap"
+        rel="stylesheet">
 </head>
 
 <body>
@@ -19,9 +24,9 @@
             <ul id="primaryNav">
                 <li class="active"><a href="index.html">Home</a></li>
                 <li><a href="temples.html">Temples</a></li>
-                <li><a href="#">Reservation</a></li>
-                <li><a href="#">Services</a></li>
-                <li><a href="#">Contact Us</a></li>
+                <li><a href="reservation.html">Reservation</a></li>
+                <li><a href="services.html">Services</a></li>
+                <li><a href="contact.html">Contact Us</a></li>
             </ul>
         </nav>
 
@@ -47,6 +52,40 @@
         </picture>
         <button type="submit" class="reservationbtn">Book a Reservationimg</button>
 
+        <button class="weatherbtn" id="open">Weather</button>
+        <div class="modal-containe" id="modal_containe">
+            <div class="modal">
+                <div class="modal-header">
+
+                </div>
+                <h2>3 DAY FORCAST</h2>
+                <hr>
+
+                <div class="forecastcs">
+                    <span class="wday" id="wdays"></span>
+                    <br>
+                    <span class="data" id="temp">°F</span>
+                    <br>
+                </div>
+
+
+                <div class="forecastcs">
+                    <span class="wday" id="wday1"></span>
+                    <br>
+                    <span class="data" id="temp1">°F</span>
+                    <br>
+                </div>
+
+
+                <div class="forecastcs">
+                    <span class="wday" id="wday2"></span>
+                    <br>
+                    <span class="data" id="temp2">°F</span>
+                    <br>
+                </div>
+                <div>
+                    <button class="weatherbtn" id="close">close</button>
+                </div>
     </section>
     <main class="homepage">
         <section>
@@ -56,47 +95,52 @@
 
         </section>
         <p class="hotel">
-            You like to get a married in temple and have a place for reception that can be easily customized with a
-            simple catering menu. A playroom and low-cost, short-term babysitting services thi hotel has it
+            You like to get a married in temple and have a place for reception that can be easily
+            customized with a
+            simple catering menu. A playroom and low-cost, short-term babysitting services thi hotel has
+            it
         </p>
 
 
         <section class="temple">
             <picture>
-                <img src="image/mesatemple.jpg" class="reservationimg" alt="a ticket saying reservation">
+                <img src="https://assets.ldscdn.org/77/eb/77eb82391ad1795a117b25ee3deaf2a4d229311a/provo_temple_lds.jpg"
+                    class="templeimg" alt="picture of a temple">
             </picture>
+            <h2 class="templeheader">
+                Provo Utah Temple
+            </h2>
+            <p class="temple-p">
+                Location: "Provo, Utah, United States
+                <br>
+                Dedicated: "9 February 1972"
+            </p>
+        </section>
+        <section class="templeheader">
+            <picture>
+                <img src="https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg"
+                    class="templeimg" alt="picture of a temple">
+            </picture>
+            <h2>
+                Salt Lake Temple
+            </h2>
+            <p class="temple-p">
+                location: Salt Lake City, Utah, United States
+                <br>
+                Dedicated: Renovation
+            </p>
         </section>
 
-        <div>
-            <h2>
-                Weather
-            </h2>
-            <h2 class="weekforecast">3 DAY FORCAST</h2>
-            <div class="flex">
-                <div class="forecastdays">
-                    <span class="weekday" id="weekday1"></span>
-                    <img src="" alt="" id="icon1"><br>
-                    <span class="data" id="ftemp1">°F</span>
-                </div>
-                <div class="forecastdays">
-                    <span class="weekday" id="weekday2"></span>
-                    <img src="" alt=""><br>
-                    <span class="data">°F</span>
-                </div>
-                <div class="forecastdays">
-                    <span class="weekday" id="weekday3"></span>
-                    <img src="" alt="" id="icon3"><br>
-                    <span class="data" id="ftemp3">°F</span>
-                </div>
-            </div>
-        </div>
-        </section>
+
+
+
 
 
     </main>
     <h2 class="servicesheader">
         Top 3 Services
     </h2>
+    <hr>
     <section class="homepage">
         <section class="hotelservices">
             <h2>
@@ -123,14 +167,17 @@
             </h2>
             <ul>
                 <li>
-                    Free access to changing rooms and bathroom facilities for temple patrons who have traveled far and
+                    Free access to changing rooms and bathroom facilities for temple patrons who have
+                    traveled far and
                     need to change to and from church clothes.
                 </li>
                 <li>
-                    A playroom and low-cost, short-term babysitting services for the children of patrons.
+                    A playroom and low-cost, short-term babysitting services for the children of
+                    patrons.
                 </li>
                 <li>
-                    Long-term stay accommodations in kitchenette suites for full-time temple missionaries.
+                    Long-term stay accommodations in kitchenette suites for full-time temple
+                    missionaries.
                 </li>
             </ul>
 
@@ -158,13 +205,13 @@
             <h2 class="footerinfo">Quick Menu links</h2>
             <ul>
                 <li>
-                    <a href="#">Temples</a>
+                    <a href="temples.html">Temples</a>
                 </li>
                 <li>
-                    <a href="#">Reservation </a>
+                    <a href="reservation.html">Reservation </a>
                 </li>
                 <li>
-                    <a href="#">Services</a>
+                    <a href="services.html">Services</a>
                 </li>
             </ul>
         </div>
@@ -173,11 +220,9 @@
             <a target="_blank" href="https://www.twitter.com"><img src="image/twitter.png" alt=" twitter" /></a>
         </section>
         <section class="email">
-            <form method="get" action="thankyou.html">
-                <fieldset>
-                    <legend>Contact Us</legend>
-                    <input type="submit" value="Contact Us" class="submitBtn">
-                </fieldset>
+
+            <a href="contact.html"> <input type="submit" value="Contact Us" class="contactBtn"></a>
+            </form>
         </section>
 
     </footer>
@@ -187,6 +232,7 @@
         </p>
         <p><span id="lastModified"></span></p>
     </section>
+    <script src="js/modal.js"></script>
     <script src="js/weather.js"></script>
     <script src="js/currntyear.js"></script>
     <script src="js/lastModified.js"></script>

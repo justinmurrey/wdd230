@@ -1,0 +1,28 @@
+{
+  "temples": [
+    {
+      "templeName": "Monticello Utah Temple",
+      "location": "Monticello, Utah, United States",
+      "dedicated": "26 July 1998",
+      "imageUrl": "https://assets.ldscdn.org/c1/4f/c14f8dc51dab085e74a56355b841ab7887a246b5/monticello_utah_temple.jpeg"
+    },
+    {
+      "templeName": "Provo City Center Temple",
+      "location": "Provo, Utah, United States",
+      "dedicated": "20 March 2016",
+      "imageUrl": "https://assets.ldscdn.org/57/18/5718c8b9c5a103646c0bd22554cb268b88986f05/provo_city_center_temple_exterior.jpg"
+    },
+    {
+      "templeName": "Provo Utah Temple",
+      "location": "Provo, Utah, United States",
+      "dedicated": "9 February 1972",
+      "imageUrl": "https://assets.ldscdn.org/77/eb/77eb82391ad1795a117b25ee3deaf2a4d229311a/provo_temple_lds.jpg"
+    },
+    {
+      "templeName": "Salt Lake Temple",
+      "location": "Salt Lake City, Utah, United States",
+      "dedicated": "Renovation",
+      "imageUrl": "https://assets.ldscdn.org/cc/dc/ccdce513b921520a0740a60b5f349759a269eceb142197/salt_lake_temple_lds.jpeg"
+    }
+  ]
+}

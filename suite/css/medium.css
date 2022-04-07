@@ -29,18 +29,13 @@
   .specializedservices {
     text-align: center;
   }
-  .reservationbtn {
-    position: absolute;
-    bottom: 50px;
-    left: 50px;
-  }
   #temples {
     grid-template-columns: 1fr 1fr;
   }
-/*Reservation page*/
-.reservation{
-  grid-template-columns: repeat(2, 1fr);
-}  
+  /*Reservation page*/
+  .reservation {
+    grid-template-columns: repeat(2, 1fr);
+  }
   /*footer*/
   footer,
   header {
@@ -49,20 +44,18 @@
   .media2 {
     display: none;
   }
-  
-
-  form input.submitBtn {
-    border: none;
-    background-color: #ebe7db;
-    color: var(--primary);
-    border-radius: 1rem;
-    padding: 0.75rem 1.5rem;
-    margin-top: 5px;
-    width: 100%;
-  }
 
   .email {
     margin-right: 10px;
     display: block;
+  }
+  .card-wrapper {
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    margin: 2rem;
   }
 }
